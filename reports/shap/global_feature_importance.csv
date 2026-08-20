@@ -1,0 +1,337 @@
+series_type,series_id,feature,mean_abs_shap,importance_pct,global_rank
+overall,overall,rolling_mean_4,32711.025,34.334164,1
+overall,overall,lag_1,28638.957,30.060036,2
+overall,overall,lag_52,8150.718,8.5551605,3
+overall,overall,lag_4,5185.5107,5.442818,4
+overall,overall,month,4405.212,4.6238003,5
+overall,overall,rolling_std_4,3879.548,4.072053,6
+overall,overall,week_sin,3695.4062,3.8787742,7
+overall,overall,week_cos,2946.7883,3.0930095,8
+overall,overall,days_to_month_end,2741.0547,2.8770673,9
+overall,overall,week_of_year,1269.3542,1.3323402,10
+overall,overall,month_cos,1036.3768,1.0878024,11
+overall,overall,month_sin,386.52725,0.40570694,12
+overall,overall,year,202.21457,0.21224855,13
+overall,overall,quarter,23.83879,0.025021683,14
+overall,overall,is_weekend,0.0,0.0,15
+overall,overall,day_of_week,0.0,0.0,16
+category,Automotive,lag_52,1840.4497,32.33473,1
+category,Automotive,lag_1,979.05,17.20086,2
+category,Automotive,rolling_mean_4,575.3328,10.107982,3
+category,Automotive,days_to_month_end,442.25055,7.7698684,4
+category,Automotive,week_sin,376.64197,6.617196,5
+category,Automotive,rolling_std_4,313.12076,5.5011964,6
+category,Automotive,lag_4,214.8084,3.7739534,7
+category,Automotive,month_cos,210.23651,3.6936302,8
+category,Automotive,week_cos,190.71698,3.350693,9
+category,Automotive,year,163.77702,2.8773868,10
+category,Automotive,week_of_year,155.26505,2.7278404,11
+category,Automotive,month,152.5195,2.6796043,12
+category,Automotive,month_sin,50.397095,0.885423,13
+category,Automotive,quarter,27.299953,0.47963095,14
+category,Automotive,is_weekend,0.0,0.0,15
+category,Automotive,day_of_week,0.0,0.0,16
+category,Beauty & Health,lag_1,7096.4355,49.192825,1
+category,Beauty & Health,lag_52,1171.8351,8.123216,2
+category,Beauty & Health,lag_4,1029.3824,7.135728,3
+category,Beauty & Health,week_sin,861.9247,5.9749026,4
+category,Beauty & Health,rolling_mean_4,847.86145,5.8774157,5
+category,Beauty & Health,days_to_month_end,841.60504,5.834046,6
+category,Beauty & Health,week_cos,627.4613,4.3495913,7
+category,Beauty & Health,year,595.0234,4.12473,8
+category,Beauty & Health,month,412.00665,2.8560495,9
+category,Beauty & Health,rolling_std_4,336.40594,2.331982,10
+category,Beauty & Health,month_sin,256.68433,1.7793479,11
+category,Beauty & Health,week_of_year,225.54108,1.5634613,12
+category,Beauty & Health,month_cos,113.83896,0.789137,13
+category,Beauty & Health,quarter,9.746721,0.06756473,14
+category,Beauty & Health,is_weekend,0.0,0.0,15
+category,Beauty & Health,day_of_week,0.0,0.0,16
+category,Books & Media,lag_52,539.92535,17.811607,1
+category,Books & Media,lag_4,449.0884,14.814988,2
+category,Books & Media,lag_1,372.33716,12.283038,3
+category,Books & Media,year,361.9258,11.939578,4
+category,Books & Media,rolling_mean_4,358.2063,11.8168745,5
+category,Books & Media,week_sin,191.28244,6.3102207,6
+category,Books & Media,days_to_month_end,186.90521,6.16582,7
+category,Books & Media,week_cos,160.11604,5.2820716,8
+category,Books & Media,rolling_std_4,136.79239,4.512647,9
+category,Books & Media,week_of_year,125.69558,4.146574,10
+category,Books & Media,month,92.33795,3.0461385,11
+category,Books & Media,month_cos,32.387146,1.0684203,12
+category,Books & Media,month_sin,15.825365,0.5220633,13
+category,Books & Media,quarter,8.486509,0.27996165,14
+category,Books & Media,is_weekend,0.0,0.0,15
+category,Books & Media,day_of_week,0.0,0.0,16
+category,Electronics & Computing,lag_1,2574.1729,18.952898,1
+category,Electronics & Computing,lag_4,2417.9421,17.802616,2
+category,Electronics & Computing,rolling_mean_4,1743.4973,12.83687,3
+category,Electronics & Computing,week_cos,1234.7942,9.091436,4
+category,Electronics & Computing,week_of_year,1140.4662,8.396926,5
+category,Electronics & Computing,lag_52,1042.4988,7.6756196,6
+category,Electronics & Computing,days_to_month_end,852.33746,6.2755165,7
+category,Electronics & Computing,month_cos,727.9512,5.359696,8
+category,Electronics & Computing,rolling_std_4,704.3604,5.1860037,9
+category,Electronics & Computing,week_sin,494.7751,3.6428874,10
+category,Electronics & Computing,month_sin,418.8746,3.0840538,11
+category,Electronics & Computing,month,156.5302,1.152487,12
+category,Electronics & Computing,year,73.7501,0.5430008,13
+category,Electronics & Computing,quarter,0.0,0.0,14
+category,Electronics & Computing,is_weekend,0.0,0.0,15
+category,Electronics & Computing,day_of_week,0.0,0.0,16
+category,Fashion & Accessories,lag_52,3505.4663,26.15664,1
+category,Fashion & Accessories,rolling_mean_4,3479.8818,25.965734,2
+category,Fashion & Accessories,lag_1,1854.1365,13.834958,3
+category,Fashion & Accessories,lag_4,1101.8689,8.221785,4
+category,Fashion & Accessories,week_cos,1099.6794,8.205447,5
+category,Fashion & Accessories,week_sin,497.3231,3.710862,6
+category,Fashion & Accessories,days_to_month_end,474.39108,3.5397508,7
+category,Fashion & Accessories,rolling_std_4,444.25278,3.3148685,8
+category,Fashion & Accessories,month,414.77286,3.094899,9
+category,Fashion & Accessories,week_of_year,281.1101,2.0975513,10
+category,Fashion & Accessories,month_sin,162.13954,1.2098321,11
+category,Fashion & Accessories,month_cos,86.800156,0.64767426,12
+category,Fashion & Accessories,quarter,0.0,0.0,13
+category,Fashion & Accessories,year,0.0,0.0,14
+category,Fashion & Accessories,is_weekend,0.0,0.0,15
+category,Fashion & Accessories,day_of_week,0.0,0.0,16
+category,Food & Beverage,lag_52,305.12717,29.320896,1
+category,Food & Beverage,lag_4,167.84149,16.128563,2
+category,Food & Beverage,lag_1,164.28197,15.786515,3
+category,Food & Beverage,rolling_std_4,126.22209,12.129189,4
+category,Food & Beverage,week_sin,62.074024,5.9649425,5
+category,Food & Beverage,days_to_month_end,50.05064,4.8095675,6
+category,Food & Beverage,month_sin,36.796413,3.5359156,7
+category,Food & Beverage,rolling_mean_4,34.17865,3.2843637,8
+category,Food & Beverage,month_cos,26.997396,2.5942883,9
+category,Food & Beverage,year,25.70541,2.4701362,10
+category,Food & Beverage,week_cos,15.973577,1.5349653,11
+category,Food & Beverage,week_of_year,14.109842,1.3558714,12
+category,Food & Beverage,month,11.174241,1.0737778,13
+category,Food & Beverage,quarter,0.11454375,0.01100697,14
+category,Food & Beverage,is_weekend,0.0,0.0,15
+category,Food & Beverage,day_of_week,0.0,0.0,16
+category,"Gifts, Arts & Seasonal",lag_1,1976.4672,41.77128,1
+category,"Gifts, Arts & Seasonal",lag_52,721.44666,15.247281,2
+category,"Gifts, Arts & Seasonal",lag_4,405.66138,8.573375,3
+category,"Gifts, Arts & Seasonal",rolling_mean_4,381.23868,8.057218,4
+category,"Gifts, Arts & Seasonal",week_of_year,244.31396,5.1634083,5
+category,"Gifts, Arts & Seasonal",rolling_std_4,242.9013,5.1335526,6
+category,"Gifts, Arts & Seasonal",days_to_month_end,197.07622,4.165071,7
+category,"Gifts, Arts & Seasonal",week_cos,149.07239,3.1505427,8
+category,"Gifts, Arts & Seasonal",month,146.53322,3.096879,9
+category,"Gifts, Arts & Seasonal",month_cos,131.25174,2.7739155,10
+category,"Gifts, Arts & Seasonal",week_sin,90.01019,1.9023037,11
+category,"Gifts, Arts & Seasonal",month_sin,41.310757,0.8730745,12
+category,"Gifts, Arts & Seasonal",year,2.437388,0.051512524,13
+category,"Gifts, Arts & Seasonal",quarter,1.9204229,0.04058682,14
+category,"Gifts, Arts & Seasonal",is_weekend,0.0,0.0,15
+category,"Gifts, Arts & Seasonal",day_of_week,0.0,0.0,16
+category,Home & Furniture,lag_1,9971.296,47.809513,1
+category,Home & Furniture,rolling_mean_4,2427.7502,11.640368,2
+category,Home & Furniture,year,1705.0789,8.175365,3
+category,Home & Furniture,week_sin,1266.6663,6.0733027,4
+category,Home & Furniture,lag_4,983.12103,4.713784,5
+category,Home & Furniture,lag_52,952.2835,4.565927,6
+category,Home & Furniture,week_cos,873.82904,4.1897607,7
+category,Home & Furniture,rolling_std_4,856.0253,4.104397,8
+category,Home & Furniture,week_of_year,660.79443,3.1683202,9
+category,Home & Furniture,days_to_month_end,447.73373,2.1467555,10
+category,Home & Furniture,month,265.25262,1.2718105,11
+category,Home & Furniture,month_sin,250.33417,1.2002808,12
+category,Home & Furniture,month_cos,132.41447,0.63488954,13
+category,Home & Furniture,quarter,63.7226,0.30553165,14
+category,Home & Furniture,is_weekend,0.0,0.0,15
+category,Home & Furniture,day_of_week,0.0,0.0,16
+category,Home Improvement & Garden,rolling_mean_4,2313.0488,28.001726,1
+category,Home Improvement & Garden,lag_52,1597.9772,19.345081,2
+category,Home Improvement & Garden,lag_1,1187.5138,14.376019,3
+category,Home Improvement & Garden,lag_4,934.1909,11.309298,4
+category,Home Improvement & Garden,week_sin,572.46576,6.9302597,5
+category,Home Improvement & Garden,week_cos,384.05814,4.6494,6
+category,Home Improvement & Garden,rolling_std_4,362.83054,4.3924193,7
+category,Home Improvement & Garden,days_to_month_end,330.74188,4.003955,8
+category,Home Improvement & Garden,week_of_year,252.65181,3.058598,9
+category,Home Improvement & Garden,month,107.560936,1.3021306,10
+category,Home Improvement & Garden,month_sin,82.02899,0.9930414,11
+category,Home Improvement & Garden,month_cos,75.573654,0.9148932,12
+category,Home Improvement & Garden,year,41.25845,0.499474,13
+category,Home Improvement & Garden,quarter,18.479006,0.2237065,14
+category,Home Improvement & Garden,is_weekend,0.0,0.0,15
+category,Home Improvement & Garden,day_of_week,0.0,0.0,16
+category,Kids & Baby,lag_1,2563.917,32.82139,1
+category,Kids & Baby,rolling_mean_4,1070.3839,13.7022705,2
+category,Kids & Baby,lag_52,801.50653,10.2603,3
+category,Kids & Baby,rolling_std_4,717.807,9.188839,4
+category,Kids & Baby,week_sin,574.11993,7.349463,5
+category,Kids & Baby,lag_4,554.499,7.0982904,6
+category,Kids & Baby,month,465.84357,5.963388,7
+category,Kids & Baby,week_of_year,412.99542,5.2868648,8
+category,Kids & Baby,days_to_month_end,258.80374,3.3130157,9
+category,Kids & Baby,month_sin,188.35756,2.4112153,10
+category,Kids & Baby,week_cos,172.42046,2.2072005,11
+category,Kids & Baby,month_cos,31.072502,0.3977674,12
+category,Kids & Baby,quarter,0.0,0.0,13
+category,Kids & Baby,year,0.0,0.0,14
+category,Kids & Baby,is_weekend,0.0,0.0,15
+category,Kids & Baby,day_of_week,0.0,0.0,16
+category,Kitchen & Appliances,year,1912.1442,31.765192,1
+category,Kitchen & Appliances,week_sin,766.5284,12.73383,2
+category,Kitchen & Appliances,lag_52,695.12756,11.547697,3
+category,Kitchen & Appliances,lag_4,581.32227,9.657124,4
+category,Kitchen & Appliances,rolling_std_4,413.2355,6.864809,5
+category,Kitchen & Appliances,lag_1,396.79297,6.5916605,6
+category,Kitchen & Appliances,days_to_month_end,345.21844,5.7348866,7
+category,Kitchen & Appliances,rolling_mean_4,319.55093,5.3084893,8
+category,Kitchen & Appliances,week_of_year,251.25429,4.1739216,9
+category,Kitchen & Appliances,week_cos,128.47421,2.1342576,10
+category,Kitchen & Appliances,month,126.852,2.1073086,11
+category,Kitchen & Appliances,month_sin,39.42536,0.6549476,12
+category,Kitchen & Appliances,month_cos,34.594673,0.5746985,13
+category,Kitchen & Appliances,quarter,9.100339,0.15117794,14
+category,Kitchen & Appliances,is_weekend,0.0,0.0,15
+category,Kitchen & Appliances,day_of_week,0.0,0.0,16
+category,"Office, Business & Services",lag_52,1863.2222,29.616829,1
+category,"Office, Business & Services",rolling_mean_4,1269.684,20.18225,2
+category,"Office, Business & Services",lag_1,760.1081,12.082291,3
+category,"Office, Business & Services",rolling_std_4,461.4658,7.3352246,4
+category,"Office, Business & Services",week_of_year,444.18274,7.0605025,5
+category,"Office, Business & Services",days_to_month_end,389.35852,6.189044,6
+category,"Office, Business & Services",lag_4,342.7621,5.448371,7
+category,"Office, Business & Services",week_sin,335.19052,5.328017,8
+category,"Office, Business & Services",week_cos,125.66447,1.9974983,9
+category,"Office, Business & Services",month,117.56946,1.8688241,10
+category,"Office, Business & Services",month_sin,93.622,1.4881675,11
+category,"Office, Business & Services",month_cos,82.21065,1.3067784,12
+category,"Office, Business & Services",quarter,6.052825,0.09621262,13
+category,"Office, Business & Services",year,0.0,0.0,14
+category,"Office, Business & Services",is_weekend,0.0,0.0,15
+category,"Office, Business & Services",day_of_week,0.0,0.0,16
+category,Pet Supplies,lag_52,737.4998,29.4742,1
+category,Pet Supplies,lag_1,518.174,20.708838,2
+category,Pet Supplies,lag_4,230.13124,9.197201,3
+category,Pet Supplies,rolling_std_4,209.9408,8.390289,4
+category,Pet Supplies,rolling_mean_4,198.27907,7.924228,5
+category,Pet Supplies,year,126.95393,5.073717,6
+category,Pet Supplies,week_sin,122.21702,4.8844066,7
+category,Pet Supplies,week_of_year,114.27149,4.566863,8
+category,Pet Supplies,days_to_month_end,76.141495,3.042997,9
+category,Pet Supplies,month,67.48855,2.6971817,10
+category,Pet Supplies,week_cos,59.25476,2.368118,11
+category,Pet Supplies,month_sin,25.373001,1.0140327,12
+category,Pet Supplies,month_cos,8.7858095,0.35112512,13
+category,Pet Supplies,quarter,7.6768327,0.30680484,14
+category,Pet Supplies,is_weekend,0.0,0.0,15
+category,Pet Supplies,day_of_week,0.0,0.0,16
+category,Phones & Telecom,lag_52,904.4946,22.071314,1
+category,Phones & Telecom,rolling_mean_4,833.4257,20.337103,2
+category,Phones & Telecom,week_sin,672.5093,16.41045,3
+category,Phones & Telecom,lag_1,412.45084,10.06455,4
+category,Phones & Telecom,days_to_month_end,333.54062,8.138998,5
+category,Phones & Telecom,lag_4,301.71695,7.3624425,6
+category,Phones & Telecom,week_cos,189.46516,4.623295,7
+category,Phones & Telecom,rolling_std_4,112.97259,2.7567365,8
+category,Phones & Telecom,week_of_year,104.77213,2.5566306,9
+category,Phones & Telecom,month_sin,81.574524,1.9905667,10
+category,Phones & Telecom,month,70.706116,1.7253578,11
+category,Phones & Telecom,year,52.797337,1.288351,12
+category,Phones & Telecom,month_cos,25.012974,0.61036205,13
+category,Phones & Telecom,quarter,2.6163433,0.06384353,14
+category,Phones & Telecom,is_weekend,0.0,0.0,15
+category,Phones & Telecom,day_of_week,0.0,0.0,16
+category,Sports & Leisure,lag_1,2250.3047,27.780527,1
+category,Sports & Leisure,lag_52,1592.5736,19.660686,2
+category,Sports & Leisure,rolling_mean_4,1176.77,14.527496,3
+category,Sports & Leisure,week_of_year,1164.2046,14.372373,4
+category,Sports & Leisure,rolling_std_4,490.6248,6.0568757,5
+category,Sports & Leisure,week_cos,320.66476,3.9586802,6
+category,Sports & Leisure,days_to_month_end,262.47928,3.240367,7
+category,Sports & Leisure,week_sin,259.44672,3.2029293,8
+category,Sports & Leisure,lag_4,234.96584,2.9007072,9
+category,Sports & Leisure,month,140.82312,1.7384937,10
+category,Sports & Leisure,month_cos,97.81858,1.2075928,11
+category,Sports & Leisure,month_sin,75.31303,0.9297566,12
+category,Sports & Leisure,quarter,29.347437,0.36230084,13
+category,Sports & Leisure,year,4.9583898,0.061212458,14
+category,Sports & Leisure,is_weekend,0.0,0.0,15
+category,Sports & Leisure,day_of_week,0.0,0.0,16
+region,Central-West,lag_52,2050.9524,28.430908,1
+region,Central-West,rolling_mean_4,1320.4686,18.304728,2
+region,Central-West,lag_1,1109.3351,15.377932,3
+region,Central-West,lag_4,603.6801,8.368392,4
+region,Central-West,month,455.8804,6.319549,5
+region,Central-West,week_sin,428.91177,5.945702,6
+region,Central-West,rolling_std_4,401.50336,5.565758,7
+region,Central-West,days_to_month_end,381.93597,5.2945094,8
+region,Central-West,week_cos,164.91039,2.2860367,9
+region,Central-West,week_of_year,159.6778,2.213501,10
+region,Central-West,month_cos,82.80436,1.1478586,11
+region,Central-West,month_sin,53.752098,0.74512756,12
+region,Central-West,quarter,0.0,0.0,13
+region,Central-West,year,0.0,0.0,14
+region,Central-West,is_weekend,0.0,0.0,15
+region,Central-West,day_of_week,0.0,0.0,16
+region,North,lag_52,683.9918,21.889145,1
+region,North,lag_1,557.0163,17.825666,2
+region,North,days_to_month_end,514.8063,16.47486,3
+region,North,lag_4,421.59573,13.49193,4
+region,North,rolling_mean_4,246.72641,7.895752,5
+region,North,rolling_std_4,241.23637,7.72006,6
+region,North,week_cos,190.24838,6.0883393,7
+region,North,week_sin,117.431786,3.7580583,8
+region,North,year,60.396767,1.9328207,9
+region,North,week_of_year,44.96943,1.4391141,10
+region,North,month_cos,16.395803,0.5246994,11
+region,North,month,15.997741,0.51196057,12
+region,North,month_sin,13.986486,0.44759634,13
+region,North,quarter,0.0,0.0,14
+region,North,is_weekend,0.0,0.0,15
+region,North,day_of_week,0.0,0.0,16
+region,Northeast,rolling_mean_4,4449.1216,35.366158,1
+region,Northeast,lag_1,2279.4954,18.119755,2
+region,Northeast,lag_4,1461.3602,11.616382,3
+region,Northeast,week_sin,958.0484,7.615546,4
+region,Northeast,rolling_std_4,699.8498,5.5631204,5
+region,Northeast,week_cos,607.56903,4.8295784,6
+region,Northeast,days_to_month_end,583.08044,4.634918,7
+region,Northeast,lag_52,558.0472,4.4359283,8
+region,Northeast,week_of_year,330.91776,2.6304717,9
+region,Northeast,month_sin,314.98572,2.5038278,10
+region,Northeast,month_cos,226.68982,1.8019619,11
+region,Northeast,month,87.57445,0.69613105,12
+region,Northeast,year,23.426569,0.18621826,13
+region,Northeast,quarter,0.0,0.0,14
+region,Northeast,is_weekend,0.0,0.0,15
+region,Northeast,day_of_week,0.0,0.0,16
+region,South,lag_1,6426.8125,41.682613,1
+region,South,rolling_mean_4,2679.1772,17.376438,2
+region,South,rolling_std_4,1108.9658,7.1924605,3
+region,South,lag_52,1102.2032,7.1485996,4
+region,South,week_sin,673.8996,4.370735,5
+region,South,week_cos,627.78815,4.0716686,6
+region,South,lag_4,621.3467,4.029891,7
+region,South,month,537.15784,3.4838643,8
+region,South,days_to_month_end,506.5863,3.2855854,9
+region,South,week_of_year,439.66937,2.8515797,10
+region,South,year,402.4851,2.6104124,11
+region,South,month_sin,235.88625,1.529896,12
+region,South,month_cos,56.47167,0.36626038,13
+region,South,quarter,0.0,0.0,14
+region,South,is_weekend,0.0,0.0,15
+region,South,day_of_week,0.0,0.0,16
+region,Southeast,lag_1,29919.975,45.066673,1
+region,Southeast,rolling_mean_4,15297.437,23.041615,2
+region,Southeast,month,4271.419,6.4337835,3
+region,Southeast,lag_52,3160.5757,4.7605863,4
+region,Southeast,rolling_std_4,2600.2468,3.9165967,5
+region,Southeast,week_cos,2343.6375,3.5300813,6
+region,Southeast,lag_4,2286.193,3.4435563,7
+region,Southeast,week_sin,2283.0623,3.4388404,8
+region,Southeast,days_to_month_end,1854.7244,2.7936606,9
+region,Southeast,week_of_year,1260.0559,1.897947,10
+region,Southeast,year,475.84344,0.7167346,11
+region,Southeast,month_sin,343.0843,0.5167674,12
+region,Southeast,month_cos,294.21735,0.44316202,13
+region,Southeast,quarter,0.0,0.0,14
+region,Southeast,is_weekend,0.0,0.0,15
+region,Southeast,day_of_week,0.0,0.0,16

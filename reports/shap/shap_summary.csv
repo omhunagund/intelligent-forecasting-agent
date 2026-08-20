@@ -1,0 +1,22 @@
+series_type,series_id,top_global_feature,top_global_mean_abs_shap,top_global_importance_pct
+overall,overall,rolling_mean_4,32711.025390625,34.334163665771484
+category,Automotive,lag_52,1840.44970703125,32.3347282409668
+category,Beauty & Health,lag_1,7096.435546875,49.19282531738281
+category,Books & Media,lag_52,539.9253540039062,17.811607360839844
+category,Electronics & Computing,lag_1,2574.1728515625,18.952898025512695
+category,Fashion & Accessories,lag_52,3505.46630859375,26.156639099121094
+category,Food & Beverage,lag_52,305.1271667480469,29.32089614868164
+category,"Gifts, Arts & Seasonal",lag_1,1976.4671630859375,41.771278381347656
+category,Home & Furniture,lag_1,9971.2958984375,47.809513092041016
+category,Home Improvement & Garden,rolling_mean_4,2313.048828125,28.001726150512695
+category,Kids & Baby,lag_1,2563.9169921875,32.821388244628906
+category,Kitchen & Appliances,year,1912.1441650390625,31.76519203186035
+category,"Office, Business & Services",lag_52,1863.22216796875,29.61682891845703
+category,Pet Supplies,lag_52,737.4998168945312,29.474199295043945
+category,Phones & Telecom,lag_52,904.49462890625,22.071313858032227
+category,Sports & Leisure,lag_1,2250.3046875,27.780527114868164
+region,Central-West,lag_52,2050.952392578125,28.430908203125
+region,North,lag_52,683.9918212890625,21.889144897460938
+region,Northeast,rolling_mean_4,4449.12158203125,35.36615753173828
+region,South,lag_1,6426.8125,41.682613372802734
+region,Southeast,lag_1,29919.974609375,45.066673278808594

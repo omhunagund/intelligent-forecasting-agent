@@ -1,0 +1,81 @@
+series_type,series_id,timestamp,forecast_revenue,lower_80,upper_80,model,model_artifact
+category,Automotive,2018-09-02,9803.1748046875,7570.006576171874,15817.7875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_automotive.json
+category,Automotive,2018-09-09,12793.5205078125,10560.352279296874,18808.133203125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_automotive.json
+category,Automotive,2018-09-16,12027.4716796875,9794.303451171874,18042.084375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_automotive.json
+category,Automotive,2018-09-23,14574.654296875,12341.486068359374,20589.2669921875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_automotive.json
+category,Beauty & Health,2018-09-02,28674.123046875,23057.6191640625,40353.572859375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_beauty_health.json
+category,Beauty & Health,2018-09-09,32545.7890625,26929.2851796875,44225.238875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_beauty_health.json
+category,Beauty & Health,2018-09-16,29002.4765625,23385.9726796875,40681.926375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_beauty_health.json
+category,Beauty & Health,2018-09-23,26605.9296875,20989.4258046875,38285.3795,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_beauty_health.json
+category,Books & Media,2018-09-02,6288.96435546875,3657.8563164062502,10228.870798828126,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_books_media.json
+category,Books & Media,2018-09-09,4016.015625,1384.9075859375002,7955.922068359376,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_books_media.json
+category,Books & Media,2018-09-16,4705.55029296875,2074.4422539062502,8645.456736328126,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_books_media.json
+category,Books & Media,2018-09-23,2838.25634765625,207.14830859375024,6778.162791015626,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_books_media.json
+category,Electronics & Computing,2018-09-02,39612.859375,26580.44215625,50050.2980234375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_electronics_computing.json
+category,Electronics & Computing,2018-09-09,30145.91796875,17113.50075,40583.3566171875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_electronics_computing.json
+category,Electronics & Computing,2018-09-16,24562.59765625,11530.180437500001,35000.0363046875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_electronics_computing.json
+category,Electronics & Computing,2018-09-23,15476.513671875,2444.096453125001,25913.9523203125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_electronics_computing.json
+category,Fashion & Accessories,2018-09-02,26277.419921875,15636.709921875003,40566.59225390625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_fashion_accessories.json
+category,Fashion & Accessories,2018-09-09,23355.728515625,12715.018515625003,37644.90084765625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_fashion_accessories.json
+category,Fashion & Accessories,2018-09-16,27294.10546875,16653.39546875,41583.27780078125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_fashion_accessories.json
+category,Fashion & Accessories,2018-09-23,24063.390625,13422.680625000003,38352.56295703125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_fashion_accessories.json
+category,Food & Beverage,2018-09-02,3597.196044921875,3121.491564453125,4588.714669921875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_food_beverage.json
+category,Food & Beverage,2018-09-09,3009.728759765625,2534.024279296875,4001.247384765625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_food_beverage.json
+category,Food & Beverage,2018-09-16,3536.92919921875,3061.22471875,4528.44782421875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_food_beverage.json
+category,Food & Beverage,2018-09-23,3099.6572265625,2623.95274609375,4091.1758515625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_food_beverage.json
+category,"Gifts, Arts & Seasonal",2018-09-02,4791.5654296875,0.0,8453.924935546878,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_gifts_arts_seasonal.json
+category,"Gifts, Arts & Seasonal",2018-09-09,5847.515625,907.8924609375008,9509.875130859378,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_gifts_arts_seasonal.json
+category,"Gifts, Arts & Seasonal",2018-09-16,4997.97265625,58.3494921875008,8660.332162109378,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_gifts_arts_seasonal.json
+category,"Gifts, Arts & Seasonal",2018-09-23,4553.7880859375,0.0,8216.147591796878,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_gifts_arts_seasonal.json
+category,Home & Furniture,2018-09-02,47548.59765625,32097.851218750006,63578.6639921875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_furniture.json
+category,Home & Furniture,2018-09-09,41076.0078125,25625.261375000006,57106.0741484375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_furniture.json
+category,Home & Furniture,2018-09-16,45177.09765625,29726.351218750006,61207.1639921875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_furniture.json
+category,Home & Furniture,2018-09-23,58585.42578125,43134.67934375,74615.4921171875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_furniture.json
+category,Home Improvement & Garden,2018-09-02,16099.2451171875,12479.827279296875,23027.394625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_improvement_garden.json
+category,Home Improvement & Garden,2018-09-09,14360.1259765625,10740.708138671875,21288.275484375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_improvement_garden.json
+category,Home Improvement & Garden,2018-09-16,13090.7109375,9471.293099609375,20018.8604453125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_improvement_garden.json
+category,Home Improvement & Garden,2018-09-23,17039.642578125,13420.224740234375,23967.7920859375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_home_improvement_garden.json
+category,Kids & Baby,2018-09-02,13344.115234375,7685.455367187501,22481.23953125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kids_baby.json
+category,Kids & Baby,2018-09-09,11287.98828125,5629.328414062501,20425.112578125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kids_baby.json
+category,Kids & Baby,2018-09-16,13738.3193359375,8079.659468750001,22875.4436328125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kids_baby.json
+category,Kids & Baby,2018-09-23,13519.3779296875,7860.718062500001,22656.5022265625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kids_baby.json
+category,Kitchen & Appliances,2018-09-02,9421.0244140625,5777.06162109375,15265.005055664062,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kitchen_appliances.json
+category,Kitchen & Appliances,2018-09-09,9956.140625,6312.17783203125,15800.121266601562,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kitchen_appliances.json
+category,Kitchen & Appliances,2018-09-16,8923.7734375,5279.81064453125,14767.754079101562,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kitchen_appliances.json
+category,Kitchen & Appliances,2018-09-23,5700.36279296875,2056.3999999999996,11544.343434570312,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_kitchen_appliances.json
+category,"Office, Business & Services",2018-09-02,11705.5517578125,7546.295453125001,18921.267953125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_office_business_services.json
+category,"Office, Business & Services",2018-09-09,10928.0517578125,6768.795453125001,18143.767953125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_office_business_services.json
+category,"Office, Business & Services",2018-09-16,9693.8447265625,5534.588421875001,16909.560921875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_office_business_services.json
+category,"Office, Business & Services",2018-09-23,10001.994140625,5842.737835937501,17217.7103359375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_office_business_services.json
+category,Pet Supplies,2018-09-02,6458.49951171875,5262.384336914063,9077.3965703125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_pet_supplies.json
+category,Pet Supplies,2018-09-09,6621.53369140625,5425.418516601563,9240.43075,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_pet_supplies.json
+category,Pet Supplies,2018-09-16,6533.271484375,5337.156309570313,9152.16854296875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_pet_supplies.json
+category,Pet Supplies,2018-09-23,6663.970703125,5467.855528320313,9282.86776171875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_pet_supplies.json
+category,Phones & Telecom,2018-09-02,12184.984375,9041.1542578125,16713.58455078125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_phones_telecom.json
+category,Phones & Telecom,2018-09-09,13879.763671875,10735.9335546875,18408.36384765625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_phones_telecom.json
+category,Phones & Telecom,2018-09-16,12289.5810546875,9145.7509375,16818.18123046875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_phones_telecom.json
+category,Phones & Telecom,2018-09-23,4803.73876953125,1659.90865234375,9332.3389453125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_phones_telecom.json
+category,Sports & Leisure,2018-09-02,12046.37890625,7717.644039062499,19664.134382812506,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_sports_leisure.json
+category,Sports & Leisure,2018-09-09,13986.0341796875,9657.2993125,21603.789656250006,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_sports_leisure.json
+category,Sports & Leisure,2018-09-16,13474.3369140625,9145.602046875,21092.092390625006,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_sports_leisure.json
+category,Sports & Leisure,2018-09-23,16787.875,12459.1401328125,24405.630476562506,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\category_sports_leisure.json
+region,Central-West,2018-09-02,14907.9638671875,8008.398796875001,19532.39793359375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_central_west.json
+region,Central-West,2018-09-09,14280.173828125,7380.608757812501,18904.60789453125,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_central_west.json
+region,Central-West,2018-09-16,16676.52734375,9776.9622734375,21300.96141015625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_central_west.json
+region,Central-West,2018-09-23,12310.73828125,5411.173210937501,16935.17234765625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_central_west.json
+region,North,2018-09-02,4616.28125,2512.899986328125,8444.813594238283,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_north.json
+region,North,2018-09-09,5318.46142578125,3215.080162109375,9146.993770019533,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_north.json
+region,North,2018-09-16,5621.375,3517.993736328125,9449.907344238283,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_north.json
+region,North,2018-09-23,3984.300048828125,1880.9187851562501,7812.832393066408,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_north.json
+region,Northeast,2018-09-02,25858.861328125,18112.94296875,35847.7134609375,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_northeast.json
+region,Northeast,2018-09-09,34560.76171875,26814.843359375,44549.6138515625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_northeast.json
+region,Northeast,2018-09-16,34958.78515625,27212.866796875,44947.6372890625,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_northeast.json
+region,Northeast,2018-09-23,21904.794921875,14158.876562500001,31893.6470546875,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_northeast.json
+region,South,2018-09-02,27466.703125,8804.291070312502,41697.890781250004,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_south.json
+region,South,2018-09-09,24408.23046875,5745.818414062502,38639.418125000004,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_south.json
+region,South,2018-09-16,34201.58984375,15539.177789062502,48432.777500000004,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_south.json
+region,South,2018-09-23,31406.560546875,12744.148492187502,45637.748203125004,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_south.json
+region,Southeast,2018-09-02,143386.8125,89486.1606875,194955.83659375002,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_southeast.json
+region,Southeast,2018-09-09,184949.0,131048.3481875,236518.02409375002,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_southeast.json
+region,Southeast,2018-09-16,203007.21875,149106.5669375,254576.24284375002,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_southeast.json
+region,Southeast,2018-09-23,194897.03125,140996.3794375,246466.05534375002,xgboost,D:\Projects\intelligent-forecasting-agent\src\ml_layer\models\secondary\region_southeast.json

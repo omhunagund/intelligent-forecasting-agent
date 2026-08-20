@@ -404,6 +404,92 @@ def add_time_series_features(
 # ============================================================================
 # MAIN FEATURE-ENGINEERING PIPELINE
 # ============================================================================
+def build_recursive_feature_row(
+    history: pd.Series,
+    timestamp: pd.Timestamp,
+) -> pd.DataFrame:
+    """
+    Build one future feature row using only target history available
+    up to the immediately preceding timestamp.
+
+    This is the canonical recursive feature builder used during
+    multi-step XGBoost forecasting.
+
+    No future actual target values are used.
+    """
+
+    import numpy as np
+
+    history = pd.Series(
+        history,
+        dtype="float64",
+    ).dropna()
+
+    timestamp = pd.Timestamp(timestamp)
+
+    def lag_value(lag: int) -> float:
+        if len(history) < lag:
+            return float("nan")
+
+        return float(history.iloc[-lag])
+
+    lag_1 = lag_value(1)
+    lag_4 = lag_value(4)
+    lag_52 = lag_value(52)
+
+    recent_4 = history.iloc[-4:]
+
+    rolling_mean_4 = (
+        float(recent_4.mean())
+        if len(recent_4) >= 1
+        else float("nan")
+    )
+
+    rolling_std_4 = (
+        float(recent_4.std())
+        if len(recent_4) >= 2
+        else float("nan")
+    )
+
+    month = timestamp.month
+    week_of_year = int(
+        timestamp.isocalendar().week
+    )
+
+    day_of_week = timestamp.dayofweek
+
+    row = {
+        "lag_1": lag_1,
+        "lag_4": lag_4,
+        "lag_52": lag_52,
+        "rolling_mean_4": rolling_mean_4,
+        "rolling_std_4": rolling_std_4,
+        "year": timestamp.year,
+        "month": month,
+        "quarter": timestamp.quarter,
+        "week_of_year": week_of_year,
+        "day_of_week": day_of_week,
+        "is_weekend": int(day_of_week >= 5),
+        "days_to_month_end": (
+            timestamp.days_in_month
+            - timestamp.day
+        ),
+        "month_sin": np.sin(
+            2 * np.pi * month / 12
+        ),
+        "month_cos": np.cos(
+            2 * np.pi * month / 12
+        ),
+        "week_sin": np.sin(
+            2 * np.pi * week_of_year / 52
+        ),
+        "week_cos": np.cos(
+            2 * np.pi * week_of_year / 52
+        ),
+    }
+
+    return pd.DataFrame([row])
+
 
 def build_feature_dataset(
     cleaned: dict[str, pd.DataFrame],
@@ -515,6 +601,24 @@ def validate_feature_dataset(
         "week_cos",
     }
 
+    lag_52_missing = int(
+        features["lag_52"].isna().sum()
+    )
+
+    lag_52_missing_pct = (
+        lag_52_missing
+        / len(features)
+        * 100
+    )
+
+    lag_1_missing = int(
+        features["lag_1"].isna().sum()
+    )
+
+    lag_4_missing = int(
+        features["lag_4"].isna().sum()
+    )
+
     missing_columns = expected_columns - set(
         features.columns
     )
@@ -595,6 +699,12 @@ def validate_feature_dataset(
         ),
         "model_start": features["timestamp"].min(),
         "model_end": features["timestamp"].max(),
+
+        "lag_1_missing_rows": lag_1_missing,
+        "lag_4_missing_rows": lag_4_missing,
+        "lag_52_missing_rows": lag_52_missing,
+        "lag_52_missing_pct": lag_52_missing_pct,
+        "lag_52_missing_is_expected": True,
     }
 
 

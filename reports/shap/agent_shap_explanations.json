@@ -1,0 +1,4676 @@
+[
+  {
+    "series_type": "overall",
+    "series_id": "overall",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 216361.15625,
+    "base_value": 180355.1875,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 270627.24,
+        "shap_value": 27075.951171875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 204846.67,
+        "shap_value": 21078.931640625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 6176.1865234375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 2545.339111328125
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 2255.763427734375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 323755.55,
+        "shap_value": -14603.630859375
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 146813.64,
+        "shap_value": -12253.7626953125
+      }
+    ]
+  },
+  {
+    "series_type": "overall",
+    "series_id": "overall",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 228397.328125,
+    "base_value": 180355.1875,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 243778.6415625,
+        "shap_value": 26791.828125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 152872.74,
+        "shap_value": 17589.96484375
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 216361.15625,
+        "shap_value": 15443.7802734375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 4355.0
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 2176.884521484375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 324773.02,
+        "shap_value": -13441.494140625
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -7274.84033203125
+      }
+    ]
+  },
+  {
+    "series_type": "overall",
+    "series_id": "overall",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 242334.5625,
+    "base_value": 180355.1875,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 219684.71859375,
+        "shap_value": 34998.75390625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 184851.25,
+        "shap_value": 16950.232421875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 228397.328125,
+        "shap_value": 15624.89453125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": 8295.4765625
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 2336.737548828125
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 287166.75,
+        "shap_value": -12910.6044921875
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -6794.89404296875
+      }
+    ]
+  },
+  {
+    "series_type": "overall",
+    "series_id": "overall",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 271394.25,
+    "base_value": 180355.1875,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 208476.67171875,
+        "shap_value": 44186.609375
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 242334.5625,
+        "shap_value": 23294.169921875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 150527.77,
+        "shap_value": 18064.99609375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 146813.64,
+        "shap_value": 6051.60595703125
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 2346.687255859375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -2493.173583984375
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 42456.58133859426,
+        "shap_value": -2264.584228515625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -1101.5125732421875
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Automotive",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 9803.1748046875,
+    "base_value": 7769.0146484375,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 2764.33,
+        "shap_value": 2745.818603515625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 14454.7225,
+        "shap_value": 733.9667358398438
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": 501.49859619140625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 418.5866394042969
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 162.8921356201172
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -1003.6492309570312
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 6125.56,
+        "shap_value": -639.6024169921875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 6590.089161907574,
+        "shap_value": -444.6800537109375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 12249.76,
+        "shap_value": -280.0992126464844
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -138.0152130126953
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Automotive",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 12793.5205078125,
+    "base_value": 7769.0146484375,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 3914.67,
+        "shap_value": 2667.498291015625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 13843.076201171874,
+        "shap_value": 947.3883056640625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 9803.1748046875,
+        "shap_value": 769.1668090820312
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": 613.0296020507812
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 583.0223999023438
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -681.7071533203125
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 6965.783445805054,
+        "shap_value": -541.838623046875
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -94.3947525024414
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -34.46946716308594
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -16.09994125366211
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Automotive",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 12027.4716796875,
+    "base_value": 7769.0146484375,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 12793.5205078125,
+        "shap_value": 1762.411376953125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 2339.52,
+        "shap_value": 1240.2381591796875
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": 783.4154663085938
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 12244.136328125001,
+        "shap_value": 742.6593627929688
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 20254.29,
+        "shap_value": 397.197021484375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -794.2568969726562
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 5996.100240043173,
+        "shap_value": -199.22019958496094
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -74.1005859375
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -45.206703186035156
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -34.09142303466797
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Automotive",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 14574.654296875,
+    "base_value": 7769.0146484375,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 3237.58,
+        "shap_value": 2879.935302734375
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 12027.4716796875,
+        "shap_value": 1320.658447265625
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2990.2007217972305,
+        "shap_value": 1093.373779296875
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": 791.8854370117188
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 10187.431748046874,
+        "shap_value": 787.5704956054688
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -689.0314331054688
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -80.10485076904297
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -52.241817474365234
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -18.852874755859375
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Beauty & Health",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 28674.123046875,
+    "base_value": 21556.576171875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 29945.5,
+        "shap_value": 4619.17919921875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 13655.63,
+        "shap_value": 1174.322265625
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 868.6971435546875
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 577.9328002929688
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 493.5580749511719
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 43813.6125,
+        "shap_value": -1036.652587890625
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -501.9917297363281
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 48660.83,
+        "shap_value": -62.632118225097656
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Beauty & Health",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 32545.7890625,
+    "base_value": 21556.576171875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 28674.123046875,
+        "shap_value": 4743.82373046875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 18478.73,
+        "shap_value": 2845.927734375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 2201.2197265625
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 959.550537109375
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 708.2210083007812
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 38816.93576171875,
+        "shap_value": -1364.6060791015625
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -501.7256164550781
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Beauty & Health",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 29002.4765625,
+    "base_value": 21556.576171875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 32545.7890625,
+        "shap_value": 4087.8681640625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 21913.45,
+        "shap_value": 2334.01953125
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 919.952392578125
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 705.220458984375
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": 535.0685424804688
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 33808.60552734375,
+        "shap_value": -1099.8568115234375
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -514.6787109375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": -39.307533264160156
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Beauty & Health",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 26605.9296875,
+    "base_value": 21556.576171875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 29002.4765625,
+        "shap_value": 5648.15234375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 15755.66,
+        "shap_value": 1996.3956298828125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 30041.97216796875,
+        "shap_value": 1220.0086669921875
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 920.2334594726562
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 572.762451171875
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -2763.571533203125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -1636.572265625
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -962.1173706054688
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.12053668025532357,
+        "shap_value": -240.7259063720703
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -231.91664123535156
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Books & Media",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 6288.96435546875,
+    "base_value": 3501.25634765625,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 6256.99,
+        "shap_value": 1051.858154296875
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 612.6607055664062
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 362.0016784667969
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 8340.98,
+        "shap_value": 270.4654541015625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 4473.93,
+        "shap_value": 158.3230743408203
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -185.84698486328125
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -9.570026397705078
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Books & Media",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 4016.015625,
+    "base_value": 3501.25634765625,
+    "drivers_up": [
+      {
+        "feature": "lag_4",
+        "feature_value": 4765.34,
+        "shap_value": 831.38525390625
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 464.3347473144531
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 207.1435089111328
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 3960.9260888671874,
+        "shap_value": 120.6361083984375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 120.45405578613281
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 6288.96435546875,
+        "shap_value": -445.81640625
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -423.5415344238281
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 1564.6999999999998,
+        "shap_value": -259.3929748535156
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -256.2406921386719
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -10.088241577148438
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Books & Media",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 4705.55029296875,
+    "base_value": 3501.25634765625,
+    "drivers_up": [
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 455.9881896972656
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 3015.59,
+        "shap_value": 442.9680480957031
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 3714.48,
+        "shap_value": 407.2170104980469
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 3773.5949951171874,
+        "shap_value": 269.3614807128906
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": 150.1123504638672
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -529.945556640625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -249.9704132080078
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -4.345174789428711
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Books & Media",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 2838.25634765625,
+    "base_value": 3501.25634765625,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 1003.36,
+        "shap_value": 522.3375854492188
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 429.3213195800781
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 4021.362568359375,
+        "shap_value": 262.0401611328125
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2182.6347309197404,
+        "shap_value": 179.05825805664062
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.12053668025532357,
+        "shap_value": 142.49693298339844
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -1091.6572265625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 1074.92,
+        "shap_value": -424.2897033691406
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -313.31561279296875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 4705.55029296875,
+        "shap_value": -240.28318786621094
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -228.52728271484375
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Electronics & Computing",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 39612.859375,
+    "base_value": 19808.994140625,
+    "drivers_up": [
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 8119.45556640625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 22217.545000000002,
+        "shap_value": 2792.99755859375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 26704.84,
+        "shap_value": 2099.175537109375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 63972.47,
+        "shap_value": 1867.1258544921875
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 1562.2235107421875
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 12245.78,
+        "shap_value": -240.22760009765625
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Electronics & Computing",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 30145.91796875,
+    "base_value": 19808.994140625,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 39612.859375,
+        "shap_value": 3005.544677734375
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 2647.376708984375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 29348.41,
+        "shap_value": 2337.294677734375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 1330.0543212890625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 29233.04,
+        "shap_value": 1223.4461669921875
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -723.6452026367188
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -479.9440002441406
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 11718.077572986858,
+        "shap_value": -82.72982025146484
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 25444.54984375,
+        "shap_value": -53.84479904174805
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Electronics & Computing",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 24562.59765625,
+    "base_value": 19808.994140625,
+    "drivers_up": [
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 2612.0048828125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 20910.57,
+        "shap_value": 2200.246337890625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 20686.52,
+        "shap_value": 1329.9290771484375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": 938.8709716796875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 30145.91796875,
+        "shap_value": 527.3281860351562
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -1962.30419921875
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 25672.7693359375,
+        "shap_value": -1033.7047119140625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -563.1978759765625
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -140.21353149414062
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 11824.859323418585,
+        "shap_value": -74.32514190673828
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Electronics & Computing",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 15476.513671875,
+    "base_value": 19808.994140625,
+    "drivers_up": [
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 3328.340087890625
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.12053668025532357,
+        "shap_value": 926.0415649414062
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 419.3825988769531
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": 411.44842529296875
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 43.35669708251953
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 12245.78,
+        "shap_value": -2851.09228515625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -2040.1483154296875
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -1310.3355712890625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 26641.78875,
+        "shap_value": -1167.142578125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 13536.66,
+        "shap_value": -748.0333251953125
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Fashion & Accessories",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 26277.419921875,
+    "base_value": 19559.62890625,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 20213.43,
+        "shap_value": 3234.407470703125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 26768.835,
+        "shap_value": 2634.825927734375
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 1123.765380859375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 1065.1141357421875
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 729.5811157226562
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -1644.3310546875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 32405.97,
+        "shap_value": -1345.7724609375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -612.98779296875
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Fashion & Accessories",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 23355.728515625,
+    "base_value": 19559.62890625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 25236.69748046875,
+        "shap_value": 4036.541259765625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 13761.31,
+        "shap_value": 3726.013671875
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 658.050537109375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 577.411376953125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 507.4539489746094
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -2016.65283203125
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 34779.06,
+        "shap_value": -1995.2735595703125
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 26277.419921875,
+        "shap_value": -1549.2740478515625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -690.505126953125
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Fashion & Accessories",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 27294.10546875,
+    "base_value": 19559.62890625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 22380.864609375,
+        "shap_value": 4184.25
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 22019.75,
+        "shap_value": 2303.345947265625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 23355.728515625,
+        "shap_value": 1918.5797119140625
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 650.3160400390625
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": 594.004150390625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -1573.039794921875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 27484.15,
+        "shap_value": -1175.850341796875
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -579.397705078125
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Fashion & Accessories",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 24063.390625,
+    "base_value": 19559.62890625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 22333.3534765625,
+        "shap_value": 4600.76953125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 16626.4,
+        "shap_value": 2631.062255859375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 12406.16,
+        "shap_value": 914.7727661132812
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 646.1708374023438
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.12053668025532357,
+        "shap_value": 620.9032592773438
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -2426.836669921875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 27294.10546875,
+        "shap_value": -1604.0491943359375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -985.4212646484375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -542.2405395507812
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Food & Beverage",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 3597.196044921875,
+    "base_value": 962.374267578125,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 2883.61,
+        "shap_value": 1122.268310546875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 182.1,
+        "shap_value": 692.77685546875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 556.6786249039926,
+        "shap_value": 334.7278747558594
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 2905.24,
+        "shap_value": 168.13296508789062
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": 60.373680114746094
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -4.0508527755737305
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -0.038439009338617325
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Food & Beverage",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 3009.728759765625,
+    "base_value": 962.374267578125,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 3597.196044921875,
+        "shap_value": 1124.2220458984375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 220.35,
+        "shap_value": 513.651123046875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 3394.99,
+        "shap_value": 164.08824157714844
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": 73.98021697998047
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": 47.3142204284668
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 491.2584473465175,
+        "shap_value": -43.24602508544922
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": -8.519367218017578
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -4.061252117156982
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -0.038439009338617325
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Food & Beverage",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 3536.92919921875,
+    "base_value": 962.374267578125,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 3009.728759765625,
+        "shap_value": 1118.79833984375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 631.33,
+        "shap_value": 626.1834716796875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 549.4546050035412,
+        "shap_value": 334.2896423339844
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 4069.51,
+        "shap_value": 159.2960205078125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": 93.52096557617188
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -13.897354125976562
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -4.03261137008667
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -0.24985358119010925
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Food & Beverage",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 3099.6572265625,
+    "base_value": 962.374267578125,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 3536.92919921875,
+        "shap_value": 1100.850830078125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 927.3100000000001,
+        "shap_value": 451.8601989746094
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": 153.98638916015625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 2883.61,
+        "shap_value": 149.13400268554688
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": 139.00440979003906
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 362.7013427416694,
+        "shap_value": -84.35041046142578
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -2.70723819732666
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -0.038439009338617325
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Gifts, Arts & Seasonal",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 4791.5654296875,
+    "base_value": 8620.3544921875,
+    "drivers_up": [
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 236.70883178710938
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 135.4480438232422
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 6584.474999999999,
+        "shap_value": 56.58065414428711
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 8542.06,
+        "shap_value": 49.308570861816406
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": 23.132381439208984
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 3757.3,
+        "shap_value": -2827.8720703125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 9489.72,
+        "shap_value": -817.6956787109375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -241.30274963378906
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -135.11256408691406
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2077.895488637482,
+        "shap_value": -125.66767883300781
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Gifts, Arts & Seasonal",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 5847.515625,
+    "base_value": 8620.3544921875,
+    "drivers_up": [
+      {
+        "feature": "lag_4",
+        "feature_value": 7631.56,
+        "shap_value": 331.69219970703125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 5646.851357421875,
+        "shap_value": 246.43362426757812
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 201.22511291503906
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": 2.801999568939209
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2.520228385925293
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 4791.5654296875,
+        "shap_value": -2681.132080078125
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -253.2052001953125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -206.6649932861328
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 8090.11,
+        "shap_value": -116.59554290771484
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -98.4585952758789
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Gifts, Arts & Seasonal",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 4997.97265625,
+    "base_value": 8620.3544921875,
+    "drivers_up": [
+      {
+        "feature": "lag_4",
+        "feature_value": 6406.98,
+        "shap_value": 232.18734741210938
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 5200.840263671875,
+        "shap_value": 185.447021484375
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 163.86021423339844
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": 2.801999568939209
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2.520228385925293
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 5847.515625,
+        "shap_value": -2441.943359375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 9958.7,
+        "shap_value": -936.9344482421875
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -256.48370361328125
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 1172.501097238057,
+        "shap_value": -162.0311737060547
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -120.8924560546875
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Gifts, Arts & Seasonal",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 4553.7880859375,
+    "base_value": 8620.3544921875,
+    "drivers_up": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 859.1339142763452,
+        "shap_value": 395.91412353515625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 4848.588427734375,
+        "shap_value": 223.2281494140625
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 181.70233154296875
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": 2.801999568939209
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2.520228385925293
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 4997.97265625,
+        "shap_value": -2530.09912109375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 11133.6,
+        "shap_value": -872.4729614257812
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 3757.3,
+        "shap_value": -711.1416625976562
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -258.85418701171875
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -192.06295776367188
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home & Furniture",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 47548.59765625,
+    "base_value": 35476.73046875,
+    "drivers_up": [
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 6664.8486328125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 33647.09,
+        "shap_value": 3780.4296875
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 58995.362499999996,
+        "shap_value": 2379.7060546875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 20015.44470279618,
+        "shap_value": 2225.68115234375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 1425.82568359375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 29573.41,
+        "shap_value": -2817.826171875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 74004.06,
+        "shap_value": -1873.8896484375
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -469.41925048828125
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -189.86764526367188
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home & Furniture",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 41076.0078125,
+    "base_value": 35476.73046875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 47548.59765625,
+        "shap_value": 7253.48974609375
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2676.607421875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 17631.871074262897,
+        "shap_value": 1996.5146484375
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 52381.496914062496,
+        "shap_value": 701.9536743164062
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 407.3813171386719
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 64321.72,
+        "shap_value": -5447.33447265625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 28221.55,
+        "shap_value": -1174.527587890625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -1084.647705078125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": -273.8108825683594
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -71.04859924316406
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home & Furniture",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 45177.09765625,
+    "base_value": 35476.73046875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 41076.0078125,
+        "shap_value": 5573.279296875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 37957.590000000004,
+        "shap_value": 2712.94384765625
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2699.28125
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 16153.462017432033,
+        "shap_value": 2480.974853515625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 46570.068867187496,
+        "shap_value": 1155.2698974609375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 68082.26,
+        "shap_value": -5914.03466796875
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -702.6215209960938
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -81.52715301513672
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -16.847806930541992
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -5.884376525878906
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home & Furniture",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 58585.42578125,
+    "base_value": 35476.73046875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 45177.09765625,
+        "shap_value": 10595.8662109375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 33804.48,
+        "shap_value": 3662.5068359375
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2776.4462890625
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": 1588.0577392578125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 40843.77828125,
+        "shap_value": 1558.7974853515625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -68.50897979736328
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -24.237611770629883
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -5.884376525878906
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home Improvement & Garden",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 16099.2451171875,
+    "base_value": 11279.533203125,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 7715.719999999999,
+        "shap_value": 2305.718017578125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 19677.6625,
+        "shap_value": 2175.709228515625
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 690.9136352539062
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 5196.39061710065,
+        "shap_value": 423.38897705078125
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": 131.0928497314453
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": -349.7860412597656
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 16651.6,
+        "shap_value": -298.7290954589844
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -175.62892150878906
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -103.46967315673828
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -60.69792556762695
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home Improvement & Garden",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 14360.1259765625,
+    "base_value": 11279.533203125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 19539.573779296876,
+        "shap_value": 2347.72900390625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 7655.81,
+        "shap_value": 1919.5032958984375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 555.9091186523438
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 5309.713396817877,
+        "shap_value": 503.15234375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": 108.51919555664062
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 26893.77,
+        "shap_value": -725.4235229492188
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": -623.424560546875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 16099.2451171875,
+        "shap_value": -572.5429077148438
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -266.3276062011719
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -105.95716094970703
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home Improvement & Garden",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 13090.7109375,
+    "base_value": 11279.533203125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 16406.1627734375,
+        "shap_value": 2001.7408447265625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 11074.119999999999,
+        "shap_value": 1510.271728515625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": 202.594482421875
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": 196.37806701660156
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 47.68159866333008
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 19927.84,
+        "shap_value": -1056.262939453125
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 14360.1259765625,
+        "shap_value": -333.3326416015625
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2452.7935387448115,
+        "shap_value": -275.77288818359375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": -196.99679565429688
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -126.11780548095703
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Home Improvement & Garden",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 17039.642578125,
+    "base_value": 11279.533203125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 14696.8805078125,
+        "shap_value": 2361.89990234375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 6270.98,
+        "shap_value": 2278.12109375
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 1284.7847245273886,
+        "shap_value": 944.9130249023438
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 15237.44,
+        "shap_value": 441.2516784667969
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": 228.49209594726562
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -132.27882385253906
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -96.78408813476562
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 13090.7109375,
+        "shap_value": -89.66551208496094
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.12053668025532357,
+        "shap_value": -73.45862579345703
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -71.37287902832031
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kids & Baby",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 13344.115234375,
+    "base_value": 11853.3173828125,
+    "drivers_up": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 4421.273502113578,
+        "shap_value": 1263.9166259765625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 737.0053100585938
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 12627.342499999999,
+        "shap_value": 725.2504272460938
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 468.30035400390625
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 340.4537353515625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 6453.31,
+        "shap_value": -2398.605712890625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -305.7666320800781
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 16939.44,
+        "shap_value": -98.48589324951172
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kids & Baby",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 11287.98828125,
+    "base_value": 11853.3173828125,
+    "drivers_up": [
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 659.93408203125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 11728.51130859375,
+        "shap_value": 495.2052307128906
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 10128.6,
+        "shap_value": 234.36715698242188
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 159.86952209472656
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 122.38533020019531
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 13344.115234375,
+        "shap_value": -887.1068115234375
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 3527.5565859923045,
+        "shap_value": -408.4875793457031
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -402.9884338378906
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -251.27577209472656
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": -168.97723388671875
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kids & Baby",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 13738.3193359375,
+    "base_value": 11853.3173828125,
+    "drivers_up": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": 1490.644775390625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 11082.52587890625,
+        "shap_value": 654.3973999023438
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 610.5679321289062
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 165.01109313964844
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 17396.34,
+        "shap_value": 161.99427795410156
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 11287.98828125,
+        "shap_value": -809.2213745117188
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -346.3474426269531
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 3228.0848063833605,
+        "shap_value": -151.14759826660156
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -110.62937927246094
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -8.525772094726562
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kids & Baby",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 13519.3779296875,
+    "base_value": 11853.3173828125,
+    "drivers_up": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": 1391.7471923828125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 11205.933212890624,
+        "shap_value": 741.7611083984375
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 478.3329162597656
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 6453.31,
+        "shap_value": 211.12588500976562
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 107.89607238769531
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 13738.3193359375,
+        "shap_value": -663.5204467773438
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -433.65283203125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -147.16539001464844
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 14836.54,
+        "shap_value": -52.59739303588867
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 3345.5922381121927,
+        "shap_value": -40.351444244384766
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kitchen & Appliances",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 9421.0244140625,
+    "base_value": 6773.62646484375,
+    "drivers_up": [
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2319.329345703125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 6081.9400000000005,
+        "shap_value": 692.1244506835938
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 579.5946655273438
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 277.3637390136719
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 13113.42,
+        "shap_value": 228.5748748779297
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -661.6285400390625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -411.1009521484375
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 4051.9022620029964,
+        "shap_value": -305.5777282714844
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 9143.2175,
+        "shap_value": -266.7869567871094
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kitchen & Appliances",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 9956.140625,
+    "base_value": 6773.62646484375,
+    "drivers_up": [
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2291.03662109375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 3341.12,
+        "shap_value": 903.4702758789062
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 10811.45,
+        "shap_value": 538.7422485351562
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 336.8212585449219
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 223.8624267578125
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -530.9972534179688
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -382.2744140625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 8220.118603515626,
+        "shap_value": -351.6252136230469
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 9421.0244140625,
+        "shap_value": -34.539649963378906
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kitchen & Appliances",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 8923.7734375,
+    "base_value": 6773.62646484375,
+    "drivers_up": [
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 2280.1435546875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 8445.17,
+        "shap_value": 796.76220703125
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 209.620361328125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": 208.18951416015625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 9045.42,
+        "shap_value": 142.24655151367188
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2959.4956689239757,
+        "shap_value": -566.11865234375
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 8006.291259765625,
+        "shap_value": -379.91705322265625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -319.04925537109375
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -205.8833465576172
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 9956.140625,
+        "shap_value": -118.81062316894531
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Kitchen & Appliances",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 5700.36279296875,
+    "base_value": 6773.62646484375,
+    "drivers_up": [
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 1775.265625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 1663.6399999999999,
+        "shap_value": 1180.868896484375
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 186.03887939453125
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 50.883174896240234
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": 4.321516036987305
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -1006.3464965820312
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 3602.58,
+        "shap_value": -987.7349853515625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 8923.7734375,
+        "shap_value": -807.898681640625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -521.5794677734375
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2945.851850725945,
+        "shap_value": -501.6478271484375
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Office, Business & Services",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 11705.5517578125,
+    "base_value": 9239.1494140625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 10984.432499999999,
+        "shap_value": 1411.4862060546875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 5444.59,
+        "shap_value": 1098.5709228515625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 1069.54736328125
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 4705.821110549324,
+        "shap_value": 783.9306030273438
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 17155.57,
+        "shap_value": 629.5137329101562
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -1309.05419921875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 6683.84,
+        "shap_value": -698.0283203125
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -512.0142822265625
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -89.29518127441406
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -0.7169303894042969
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Office, Business & Services",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 10928.0517578125,
+    "base_value": 9239.1494140625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 9621.927939453126,
+        "shap_value": 1733.405517578125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 4780.64,
+        "shap_value": 1171.9903564453125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 585.7338256835938
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 12062.460000000001,
+        "shap_value": 314.5270080566406
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 11705.5517578125,
+        "shap_value": 96.18425750732422
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -1309.72705078125
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -702.627685546875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2673.677692088351,
+        "shap_value": -192.52462768554688
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -99.19218444824219
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": -18.944927215576172
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Office, Business & Services",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 9693.8447265625,
+    "base_value": 9239.1494140625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 9338.32587890625,
+        "shap_value": 1268.97900390625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 4753.71,
+        "shap_value": 1174.7752685546875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 10928.0517578125,
+        "shap_value": 122.61022186279297
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2371.61684502756,
+        "shap_value": 108.89430236816406
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": 62.231632232666016
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -1127.3519287109375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -621.3682861328125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -286.5644836425781
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 8035.86,
+        "shap_value": -157.49917602539062
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -90.28329467773438
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Office, Business & Services",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 10001.994140625,
+    "base_value": 9239.1494140625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 9752.822060546874,
+        "shap_value": 1592.66259765625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 6630.16,
+        "shap_value": 813.0386352539062
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 9693.8447265625,
+        "shap_value": 405.4596252441406
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2207.294522396184,
+        "shap_value": 146.52618408203125
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": 59.63136672973633
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -1128.3228759765625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -590.320068359375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 6683.84,
+        "shap_value": -261.29339599609375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -173.5908966064453
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -106.79154205322266
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Pet Supplies",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 6458.49951171875,
+    "base_value": 2904.0263671875,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 4718.4800000000005,
+        "shap_value": 1351.379638671875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2432.7244455342657,
+        "shap_value": 672.6315307617188
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": 354.0885925292969
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": 245.9412841796875
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 226.68133544921875
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 9217.49,
+        "shap_value": -55.7783203125
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -0.0629037618637085
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Pet Supplies",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 6621.53369140625,
+    "base_value": 2904.0263671875,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 1959.38,
+        "shap_value": 1399.7410888671875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 6458.49951171875,
+        "shap_value": 1208.4532470703125
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2272.888573344329,
+        "shap_value": 778.5875854492188
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": 313.17083740234375
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 147.45286560058594
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 9113.18,
+        "shap_value": -209.18618774414062
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": -145.0683135986328
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": -67.30709075927734
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -59.75224304199219
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Pet Supplies",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 6533.271484375,
+    "base_value": 2904.0263671875,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 2185.38,
+        "shap_value": 1307.1490478515625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 6621.53369140625,
+        "shap_value": 1231.1572265625
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 1829.692971313835,
+        "shap_value": 677.1777954101562
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": 298.4926452636719
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 152.60325622558594
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 8619.23,
+        "shap_value": -217.66091918945312
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": -113.0448226928711
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -67.18086242675781
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Pet Supplies",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 6663.970703125,
+    "base_value": 2904.0263671875,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 2349.57,
+        "shap_value": 1365.314208984375
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 6533.271484375,
+        "shap_value": 1245.1224365234375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": 435.2943420410156
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 4145.92,
+        "shap_value": 270.5209655761719
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 181.0626983642578
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -145.78004455566406
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.12053668025532357,
+        "shap_value": -110.58366394042969
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Phones & Telecom",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 12184.984375,
+    "base_value": 5233.02587890625,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 4160.31,
+        "shap_value": 3952.936767578125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": 1539.04443359375
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 12814.492499999998,
+        "shap_value": 1305.0225830078125
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 18152.38,
+        "shap_value": 245.2959747314453
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 136.00523376464844
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": -157.2344970703125
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -128.2853240966797
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 3821.67,
+        "shap_value": -26.644290924072266
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": -11.164518356323242
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 7212.135094479651,
+        "shap_value": -4.807265281677246
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Phones & Telecom",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 13879.763671875,
+    "base_value": 5233.02587890625,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 7575.47,
+        "shap_value": 3797.90673828125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": 1774.993408203125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 11322.64359375,
+        "shap_value": 1090.751220703125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 888.97021484375
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 12184.984375,
+        "shap_value": 630.83935546875
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -75.93790435791016
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": -17.642297744750977
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -5.620092868804932
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 6299.350832785404,
+        "shap_value": -4.135695934295654
+      },
+      {
+        "feature": "quarter",
+        "feature_value": 3.0,
+        "shap_value": -2.4810025691986084
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Phones & Telecom",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 12289.5810546875,
+    "base_value": 5233.02587890625,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 6328.29,
+        "shap_value": 3914.75341796875
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": 1544.9246826171875
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 10014.03951171875,
+        "shap_value": 1033.2509765625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 13879.763671875,
+        "shap_value": 612.4443969726562
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 195.65504455566406
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -158.06591796875
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -81.43391418457031
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": -56.15463638305664
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": -38.39390563964844
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 4397.973309511929,
+        "shap_value": -12.664701461791992
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Phones & Telecom",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 4803.73876953125,
+    "base_value": 5233.02587890625,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 10543.999775390625,
+        "shap_value": 557.0926513671875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 12289.5810546875,
+        "shap_value": 182.1521759033203
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": 176.63638305664062
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 128.39190673828125
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 47.19193649291992
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_52",
+        "feature_value": 2935.67,
+        "shap_value": -747.692626953125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -457.7776184082031
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 4548.146979484387,
+        "shap_value": -123.04440307617188
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -109.66761016845703
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 3821.67,
+        "shap_value": -72.58912658691406
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Sports & Leisure",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 12046.37890625,
+    "base_value": 13121.7021484375,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 15980.5025,
+        "shap_value": 1250.7138671875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 17101.62,
+        "shap_value": 332.7830505371094
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 158.1510772705078
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 115.90665435791016
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 5808.400237233283,
+        "shap_value": 92.20710754394531
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 8337.1,
+        "shap_value": -1325.5933837890625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -1007.85546875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 10159.64,
+        "shap_value": -378.0348815917969
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": -279.428466796875
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -63.892757415771484
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Sports & Leisure",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 13986.0341796875,
+    "base_value": 13121.7021484375,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 14716.6922265625,
+        "shap_value": 1361.71533203125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 12176.27,
+        "shap_value": 903.4243774414062
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 16058.57,
+        "shap_value": 366.1233215332031
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": 284.1507873535156
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 162.89572143554688
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 12046.37890625,
+        "shap_value": -1847.4288330078125
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -905.8671875
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Sports & Leisure",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 13474.3369140625,
+    "base_value": 13121.7021484375,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 13640.34,
+        "shap_value": 941.249755859375
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 14198.558271484375,
+        "shap_value": 899.5097045898438
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 13986.0341796875,
+        "shap_value": 695.887939453125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": 157.9268035888672
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 148.72738647460938
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -1819.3758544921875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 22424.72,
+        "shap_value": -640.1541137695312
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -447.8211669921875
+      }
+    ]
+  },
+  {
+    "series_type": "category",
+    "series_id": "Sports & Leisure",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 16787.875,
+    "base_value": 13121.7021484375,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 11960.9625,
+        "shap_value": 1329.1954345703125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 18378.34,
+        "shap_value": 1142.299072265625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 13474.3369140625,
+        "shap_value": 1082.313720703125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": 721.422607421875
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 238.12564086914062
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -1437.10009765625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -20.91672706604004
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Central-West",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 14907.9638671875,
+    "base_value": 11566.7783203125,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 12741.33,
+        "shap_value": 2167.822509765625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 16173.9825,
+        "shap_value": 1402.2147216796875
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 686.837158203125
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 332.1285400390625
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 233.51666259765625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 5607.29,
+        "shap_value": -707.8795166015625
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -389.11102294921875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 8609.527880413943,
+        "shap_value": -370.7096862792969
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -112.52964782714844
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -44.43705749511719
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Central-West",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 14280.173828125,
+    "base_value": 11566.7783203125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 14559.558466796874,
+        "shap_value": 1463.8623046875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 14907.9638671875,
+        "shap_value": 1246.91650390625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 9979.45,
+        "shap_value": 683.6611328125
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 318.15740966796875
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 278.10748291015625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 7886.607615647382,
+        "shap_value": -648.8424682617188
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -543.6567993164062
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -117.31401824951172
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 24748.68,
+        "shap_value": -81.76586151123047
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -41.65633773803711
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Central-West",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 16676.52734375,
+    "base_value": 11566.7783203125,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 10289.630000000001,
+        "shap_value": 1796.176025390625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 14280.173828125,
+        "shap_value": 1071.3304443359375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 12974.3,
+        "shap_value": 1050.3223876953125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 11942.431923828124,
+        "shap_value": 940.9796142578125
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 4299.542295014582,
+        "shap_value": 676.7428588867188
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -751.2125244140625
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -148.22268676757812
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -132.344970703125
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -33.8314323425293
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Central-West",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 12310.73828125,
+    "base_value": 11566.7783203125,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 16676.52734375,
+        "shap_value": 738.1903076171875
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 12867.988759765625,
+        "shap_value": 691.4676513671875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 5607.29,
+        "shap_value": 421.07745361328125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 9579.08,
+        "shap_value": 329.8727722167969
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 295.2882385253906
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 4945.653907959925,
+        "shap_value": -747.8812255859375
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -659.7800903320312
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -469.7377014160156
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -123.30292510986328
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -35.6519660949707
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "North",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 4616.28125,
+    "base_value": 4673.06591796875,
+    "drivers_up": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 955.5113525390625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 4862.5075,
+        "shap_value": 384.9957580566406
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 10545.2,
+        "shap_value": 151.46829223632812
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 151.10902404785156
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 91.62957000732422
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 289.39,
+        "shap_value": -1188.36865234375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 9384.62,
+        "shap_value": -548.343994140625
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 3914.017362058026,
+        "shap_value": -145.5260009765625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -13.775077819824219
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "North",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 5318.46142578125,
+    "base_value": 4673.06591796875,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 4326.09,
+        "shap_value": 484.0650329589844
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 21.0,
+        "shap_value": 153.5848388671875
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 3670.4228125,
+        "shap_value": 115.27427673339844
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 86.62483215332031
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 72.17167663574219
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 4616.28125,
+        "shap_value": -226.71563720703125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -177.9259490966797
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -34.119625091552734
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "North",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 5621.375,
+    "base_value": 4673.06591796875,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 5318.46142578125,
+        "shap_value": 644.3404541015625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 4848.96,
+        "shap_value": 410.23333740234375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 3372.36,
+        "shap_value": 171.33201599121094
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 99.73978424072266
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 63.31158447265625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": -290.8148498535156
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2223.8472510255283,
+        "shap_value": -104.7914047241211
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -46.89104080200195
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 3399.1231689453125,
+        "shap_value": -21.655227661132812
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -5.447284698486328
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "North",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 3984.300048828125,
+    "base_value": 4673.06591796875,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 5077.04,
+        "shap_value": 345.4139099121094
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 5621.375,
+        "shap_value": 296.2613830566406
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 103.50331115722656
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 67.71391296386719
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.12053668025532357,
+        "shap_value": 26.534564971923828
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_4",
+        "feature_value": 289.39,
+        "shap_value": -760.4952392578125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -555.4940795898438
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -198.6048126220703
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 2483.9256298273144,
+        "shap_value": -86.48210906982422
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Northeast",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 25858.861328125,
+    "base_value": 21417.42578125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 24462.4625,
+        "shap_value": 3172.25439453125
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 2532.0146484375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 34597.99,
+        "shap_value": 987.1869506835938
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 37686.24,
+        "shap_value": 603.3252563476562
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 510.29248046875
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 4216.19,
+        "shap_value": -1647.8736572265625
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 14485.961866430951,
+        "shap_value": -1251.4793701171875
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -1026.1072998046875
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Northeast",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 34560.76171875,
+    "base_value": 21417.42578125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 21505.61783203125,
+        "shap_value": 7834.72119140625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 25858.861328125,
+        "shap_value": 3157.750732421875
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 1971.3892822265625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 25020.27,
+        "shap_value": 1413.4422607421875
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 31143.23,
+        "shap_value": 1391.6402587890625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -2275.313232421875
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 11855.226559662435,
+        "shap_value": -2158.24853515625
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Northeast",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 34958.78515625,
+    "base_value": 21417.42578125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 22360.00076171875,
+        "shap_value": 8107.65869140625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 24804.19,
+        "shap_value": 4004.90625
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 34560.76171875,
+        "shap_value": 1829.1705322265625
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 1198.7464599609375
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 31635.11,
+        "shap_value": 1176.9827880859375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -1998.6025390625
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 12861.732946786524,
+        "shap_value": -1974.53515625
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Northeast",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 21904.794921875,
+    "base_value": 21417.42578125,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 24898.64955078125,
+        "shap_value": 3983.228271484375
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 1223.340576171875
+      },
+      {
+        "feature": "lag_1",
+        "feature_value": 34958.78515625,
+        "shap_value": 524.7076416015625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 16896.8,
+        "shap_value": 459.156005859375
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": 127.72061157226562
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 14413.52235083294,
+        "shap_value": -1674.688720703125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -1662.10888671875
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -975.914306640625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 4216.19,
+        "shap_value": -882.4901733398438
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -841.5607299804688
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "South",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 27466.703125,
+    "base_value": 26096.83984375,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 36485.66500000001,
+        "shap_value": 2576.321533203125
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 1559.250244140625
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 543.098876953125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 489.5015869140625
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 377.0390319824219
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 15284.61,
+        "shap_value": -3163.83544921875
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -533.4423828125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -505.42333984375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 36627.56,
+        "shap_value": -210.4660186767578
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 16250.898703326124,
+        "shap_value": -82.83140563964844
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "South",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 24408.23046875,
+    "base_value": 26096.83984375,
+    "drivers_up": [
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 34195.45078125,
+        "shap_value": 2996.967529296875
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 1559.250244140625
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 478.4955139160156
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.3546048870425359,
+        "shap_value": 298.7175598144531
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 68.33638000488281
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 27466.703125,
+        "shap_value": -1601.070068359375
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.9350162426854147,
+        "shap_value": -1582.03955078125
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 17576.01,
+        "shap_value": -1530.478515625
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 54794.26,
+        "shap_value": -1090.5736083984375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -637.991455078125
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "South",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 34201.58984375,
+    "base_value": 26096.83984375,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 27596.66,
+        "shap_value": 6398.49462890625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 26598.9433984375,
+        "shap_value": 3610.00634765625
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 1618.9698486328125
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": 729.1002197265625
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 486.0937194824219
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 24408.23046875,
+        "shap_value": -3039.30517578125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.970941817426052,
+        "shap_value": -722.376708984375
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 9887.15299406884,
+        "shap_value": -601.3253173828125
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 39236.23,
+        "shap_value": -439.1121826171875
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -336.0385437011719
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "South",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 31406.560546875,
+    "base_value": 26096.83984375,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 34201.58984375,
+        "shap_value": 4201.7041015625
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 25340.283359375,
+        "shap_value": 3049.548583984375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 15284.61,
+        "shap_value": 710.3624267578125
+      },
+      {
+        "feature": "year",
+        "feature_value": 2018.0,
+        "shap_value": 629.9586791992188
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 468.92425537109375
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": -2443.671630859375
+      },
+      {
+        "feature": "rolling_std_4",
+        "feature_value": 7853.443043893415,
+        "shap_value": -1787.423828125
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Southeast",
+    "forecast_timestamp": "2018-09-02 00:00:00",
+    "forecast_revenue": 143386.8125,
+    "base_value": 116222.765625,
+    "drivers_up": [
+      {
+        "feature": "lag_52",
+        "feature_value": 123065.81999999999,
+        "shap_value": 21937.767578125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 188642.62250000003,
+        "shap_value": 10360.79296875
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 5117.8662109375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 28.0,
+        "shap_value": 4437.3583984375
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.4647231720437691,
+        "shap_value": 3126.978515625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "lag_1",
+        "feature_value": 121416.16,
+        "shap_value": -19361.58984375
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 218691.47,
+        "shap_value": -2231.113037109375
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 35.0,
+        "shap_value": -1071.6495361328125
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.8854560256532096,
+        "shap_value": -587.2111206054688
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Southeast",
+    "forecast_timestamp": "2018-09-09 00:00:00",
+    "forecast_revenue": 184949.0,
+    "base_value": 116222.765625,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 143386.8125,
+        "shap_value": 24902.37890625
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 95970.92,
+        "shap_value": 17593.23828125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 169816.458125,
+        "shap_value": 14445.6953125
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 8281.4501953125
+      },
+      {
+        "feature": "month_sin",
+        "feature_value": -1.0,
+        "shap_value": 1364.4793701171875
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "week_of_year",
+        "feature_value": 36.0,
+        "shap_value": -597.1434936523438
+      },
+      {
+        "feature": "lag_4",
+        "feature_value": 207683.19,
+        "shap_value": -252.3863983154297
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -35.45533752441406
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Southeast",
+    "forecast_timestamp": "2018-09-16 00:00:00",
+    "forecast_revenue": 203007.21875,
+    "base_value": 116222.765625,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 184949.0,
+        "shap_value": 38887.1171875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 110480.89,
+        "shap_value": 18912.982421875
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 164132.91062500002,
+        "shap_value": 15767.984375
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 8357.646484375
+      },
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 14.0,
+        "shap_value": 1894.5665283203125
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -725.2457275390625
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 37.0,
+        "shap_value": -564.9296875
+      },
+      {
+        "feature": "week_cos",
+        "feature_value": -0.23931566428755774,
+        "shap_value": -54.400115966796875
+      }
+    ]
+  },
+  {
+    "series_type": "region",
+    "series_id": "Southeast",
+    "forecast_timestamp": "2018-09-23 00:00:00",
+    "forecast_revenue": 194897.03125,
+    "base_value": 116222.765625,
+    "drivers_up": [
+      {
+        "feature": "lag_1",
+        "feature_value": 203007.21875,
+        "shap_value": 36701.671875
+      },
+      {
+        "feature": "lag_52",
+        "feature_value": 98417.47,
+        "shap_value": 17846.20703125
+      },
+      {
+        "feature": "rolling_mean_4",
+        "feature_value": 163189.7978125,
+        "shap_value": 14361.6318359375
+      },
+      {
+        "feature": "month",
+        "feature_value": 9.0,
+        "shap_value": 8416.8623046875
+      },
+      {
+        "feature": "week_sin",
+        "feature_value": -0.992708874098054,
+        "shap_value": 1214.25634765625
+      }
+    ],
+    "drivers_down": [
+      {
+        "feature": "days_to_month_end",
+        "feature_value": 7.0,
+        "shap_value": -2501.989501953125
+      },
+      {
+        "feature": "month_cos",
+        "feature_value": -1.8369701987210297e-16,
+        "shap_value": -710.5951538085938
+      },
+      {
+        "feature": "week_of_year",
+        "feature_value": 38.0,
+        "shap_value": -326.8902282714844
+      }
+    ]
+  }
+]

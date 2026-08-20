@@ -1,0 +1,9 @@
+{
+  "monitoring_status": "alert",
+  "drift_alerts": 103,
+  "drift_warnings": 2,
+  "performance_alerts": 12,
+  "performance_warnings": 8,
+  "series_monitored": 21,
+  "drift_features_monitored": 5
+}
