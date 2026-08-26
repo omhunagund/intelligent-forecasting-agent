@@ -1,0 +1,167 @@
+services:
+
+  # ========================================================================
+  # FASTAPI BACKEND
+  # ========================================================================
+
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+
+    container_name: forecasting-api
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      FASTAPI_URL: http://api:8000
+
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./src:/app/src
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+      chromadb:
+        condition: service_started
+
+      mlflow:
+        condition: service_started
+
+    restart: unless-stopped
+
+
+  # ========================================================================
+  # STREAMLIT DASHBOARD
+  # ========================================================================
+
+  dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile.dashboard
+
+    container_name: forecasting-dashboard
+
+    ports:
+      - "8501:8501"
+
+    environment:
+      FASTAPI_URL: http://api:8000
+      GROQ_API_KEY: ${GROQ_API_KEY}
+
+    volumes:
+      - ./data:/app/data
+      - ./reports:/app/reports
+      - ./src:/app/src
+
+    depends_on:
+      api:
+        condition: service_started
+
+    restart: unless-stopped
+
+
+  # ========================================================================
+  # POSTGRESQL
+  # ========================================================================
+
+  postgres:
+    image: postgres:16
+
+    container_name: forecasting-postgres
+
+    environment:
+      POSTGRES_DB: forecasting
+      POSTGRES_USER: forecasting
+      POSTGRES_PASSWORD: forecasting_password
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+    healthcheck:
+      test:
+        [
+          "CMD-SHELL",
+          "pg_isready -U forecasting -d forecasting"
+        ]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+    restart: unless-stopped
+
+
+  # ========================================================================
+  # CHROMADB
+  # ========================================================================
+
+  chromadb:
+    image: chromadb/chroma:latest
+
+    container_name: forecasting-chromadb
+
+    ports:
+      - "8001:8000"
+
+    volumes:
+      - chroma_data:/data
+
+    environment:
+      IS_PERSISTENT: "TRUE"
+
+    restart: unless-stopped
+
+
+  # ========================================================================
+  # MLFLOW
+  # ========================================================================
+
+  mlflow:
+    image: ghcr.io/mlflow/mlflow:latest
+
+    container_name: forecasting-mlflow
+
+    command:
+      - mlflow
+      - server
+      - --host
+      - 0.0.0.0
+      - --port
+      - "5000"
+      - --backend-store-uri
+      - postgresql://forecasting:forecasting_password@postgres:5432/forecasting
+      - --default-artifact-root
+      - /mlartifacts
+
+    ports:
+      - "5000:5000"
+
+    volumes:
+      - mlflow_artifacts:/mlartifacts
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+    restart: unless-stopped
+
+
+# ==========================================================================
+# PERSISTENT VOLUMES
+# ==========================================================================
+
+volumes:
+
+  postgres_data:
+
+  chroma_data:
+
+  mlflow_artifacts:
