@@ -630,6 +630,30 @@ A local `.env` file should contain the actual secret value.
 
 ---
 
+## Reproducibility
+
+The repository contains the source code, trained production model artifacts,
+forecasting features, monitoring outputs, SHAP artifacts, and project-derived
+knowledge-base documents required to inspect the project.
+
+Some generated runtime artifacts are intentionally excluded from Git and are
+recreated by the reproducibility workflow, including the overall production
+forecast CSV, ChromaDB vector store, and generated weekly business-intelligence
+reports.
+
+After installing the project dependencies, configuring the `.env` file, and
+placing the Olist CSV files in `data/raw/`, run:
+
+```powershell
+python -m scripts.reproduce_project
+```
+
+The workflow executes the project's existing Data, ML, explainability,
+monitoring, knowledge-base, RAG, and reporting pipelines in the required order
+and validates the generated artifacts at the end.
+
+Once the workflow completes successfully, start the application using the instructions in the **How to Run** section.
+
 ## How to Run
 
 The project can be run either locally or through Docker Compose.
