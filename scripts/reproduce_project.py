@@ -38,6 +38,53 @@ from src.ai_layer.weekly_report import run_weekly_report
 
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 
+REQUIRED_RAW_FILES = [
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_customers_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_geolocation_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_order_items_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_order_payments_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_order_reviews_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_orders_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_products_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "olist_sellers_dataset.csv",
+
+    PROJECT_ROOT
+    / "data"
+    / "raw"
+    / "product_category_name_translation.csv",
+]
+
 
 REQUIRED_ARTIFACTS = [
     # Data layer
@@ -179,6 +226,47 @@ REQUIRED_ARTIFACTS = [
 ]
 
 
+def validate_raw_dataset() -> None:
+    """Verify that all required Olist CSV files are present."""
+
+    print()
+    print("=" * 72)
+    print("RAW DATASET VALIDATION")
+    print("=" * 72)
+
+    missing: list[Path] = []
+
+    for path in REQUIRED_RAW_FILES:
+        if not path.is_file():
+            missing.append(path)
+
+    if missing:
+        print()
+        print("[FAIL] Required Olist dataset files are missing:")
+        print()
+
+        for path in missing:
+            print(
+                f"- {path.relative_to(PROJECT_ROOT)}"
+            )
+
+        print()
+        print(
+            "Download the Olist dataset and place all required CSV "
+            "files in data/raw/ before running the reproducibility "
+            "workflow."
+        )
+
+        raise RuntimeError(
+            "Raw Olist dataset validation failed."
+        )
+
+    print(
+        f"[PASS] Verified all "
+        f"{len(REQUIRED_RAW_FILES)} required Olist CSV files."
+    )
+
+
 def run_stage(
     stage_name: str,
     stage_function,
@@ -310,6 +398,8 @@ def main() -> None:
         "Project root:"
         f"\n{PROJECT_ROOT}"
     )
+
+    validate_raw_dataset()
 
     run_stage(
         "1/9 Data Layer",
