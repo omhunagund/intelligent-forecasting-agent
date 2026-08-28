@@ -720,72 +720,51 @@ The final Dockerized serving E2E test passed successfully.
 
 ---
 
-## Screenshots / Demo GIF
+## Screenshots
 
-The final repository will include selected screenshots from the working Streamlit dashboard and agent workflow.
-
-Recommended visuals include:
+The Streamlit dashboard provides an interactive interface for exploring forecasts, explanations, monitoring signals, AI-generated business insights, and automated reports.
 
 ### Forecast Dashboard
 
-Show:
+The forecast dashboard provides an overview of the selected revenue series, forecast horizon, historical values, and prediction intervals.
 
-- Overall/category/region selection
-- Historical revenue
-- Forecast values
-- 80% prediction intervals
-- Forecast trend visualization
+![Forecast Dashboard](docs/images/dashboard_forecast.png)
 
 ### Explainability
 
-Show:
+The explainability view presents the TreeSHAP drivers behind the selected forecast, including the features pushing the prediction upward or downward.
 
-- SHAP contribution visualization
-- Upward forecast drivers
-- Downward forecast drivers
-- Feature values and SHAP contributions
+![Forecast Explainability](docs/images/dashboard_explainability.png)
 
-### Monitoring
+### Monitoring & Risk
 
-Show:
+The monitoring view surfaces model-performance status, feature-drift signals, forecast uncertainty, and project-defined forecast risk.
 
-- Monitoring status
-- Drift alerts
-- Performance alerts
-- Forecast-risk information
+![Monitoring and Forecast Risk](docs/images/dashboard_monitoring.png)
 
 ### AI Business Intelligence
 
-Show:
+The AI interface accepts natural-language business questions and returns a grounded synthesis based on forecast, SHAP, historical, RAG, and risk evidence.
 
-- Natural-language business query
-- Query routing
-- Agent synthesis
-- Risk assessment
-- Recommendations
+Example query:
 
-### Weekly Report
-
-Show:
-
-- Executive summary
-- Forecast
-- SHAP drivers
-- Historical performance
-- Forecast risk
-- Recommendations
-
-### Demo GIF
-
-A short GIF or screen recording can be added here after the final demo is recorded.
-
-Example embedding format:
-
-```markdown
-![Intelligent Forecasting Agent Demo](docs/demo.gif)
+```text
+Why is North revenue forecast risky?
 ```
 
-The final screenshot/GIF paths should be updated once the actual assets are added to the repository.
+![AI Forecast Agent](docs/images/dashboard_agent.png)
+
+### Weekly Business Report
+
+The reporting view provides the generated business-intelligence report containing forecast results, explainability, historical performance, risk assessment, retrieved context, and recommendations.
+
+![Weekly Forecast Report](docs/images/weekly_report.png)
+
+### TreeSHAP Driver Visualization
+
+The README also includes a standalone visualization of the overall forecast's TreeSHAP contributions.
+
+![Overall SHAP Drivers](docs/images/overall_shap_drivers.png)
 
 ---
 
