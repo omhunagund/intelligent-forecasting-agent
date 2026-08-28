@@ -3,22 +3,26 @@ Reproducibility Orchestrator
 ============================
 
 Rebuild the generated artifacts required by the
-Intelligent Forecasting Agent from a prepared project state.
+Intelligent Forecasting Agent from the raw Olist dataset.
 
-Execution order
----------------
-1. Data Layer
-2. Overall ML training / model comparison
-3. Secondary category + region ML
-4. Overall production XGBoost forecast
-5. TreeSHAP explainability
-6. Model/data monitoring
-7. Project-derived knowledge base
-8. ChromaDB RAG index
-9. Weekly business-intelligence report
+This is a full regeneration workflow. It executes the project's
+existing Data, ML, production-forecast, explainability, monitoring,
+knowledge-base, RAG, and reporting pipelines in dependency order.
 
-This script orchestrates the project's existing modules.
-It does not reimplement their logic.
+Running this script may overwrite previously generated artifacts
+and creates a new timestamped weekly business-intelligence report.
+
+Prerequisites
+-------------
+1. Python dependencies installed.
+2. A valid .env file with GROQ_API_KEY.
+3. All nine required Olist CSV files present in data/raw/.
+
+Execution
+---------
+Run from the project root:
+
+    python -m scripts.reproduce_project
 """
 
 from __future__ import annotations
