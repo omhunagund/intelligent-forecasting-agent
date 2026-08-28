@@ -478,7 +478,11 @@ including:
 - Top forecast drivers
 - Agent-facing SHAP explanations
 
-A polished SHAP visualization will be embedded in this section as part of the final README presentation.
+### SHAP Visualization
+
+![Overall Forecast TreeSHAP Driver Contributions](docs/images/overall_shap_drivers.png)
+
+The visualization shows the TreeSHAP contributions for the overall revenue forecast dated 2018-09-23. Positive contributions push the forecast upward, while negative contributions push it downward.
 
 ---
 
