@@ -13,8 +13,6 @@ An end-to-end intelligent business forecasting system combining predictive machi
 ![XGBoost](https://img.shields.io/badge/Model-XGBoost-orange)
 ![LangGraph](https://img.shields.io/badge/Agent-LangGraph-purple)
 
-> Additional badges such as license and deployment status can be added once the project is published.
-
 ---
 
 ## Demo / Local Execution
