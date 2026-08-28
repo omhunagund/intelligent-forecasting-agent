@@ -760,12 +760,6 @@ The reporting view provides the generated business-intelligence report containin
 
 ![Weekly Forecast Report](docs/images/weekly_report.png)
 
-### TreeSHAP Driver Visualization
-
-The README also includes a standalone visualization of the overall forecast's TreeSHAP contributions.
-
-![Overall SHAP Drivers](docs/images/overall_shap_drivers.png)
-
 ---
 
 ## Known Limitations / Future Work
