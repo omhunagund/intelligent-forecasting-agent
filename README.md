@@ -219,12 +219,41 @@ intelligent-forecasting-agent/
 
 This project uses the **Brazilian E-Commerce Public Dataset by Olist**.
 
-The raw Olist CSV files are intentionally excluded from Git.
+The raw Olist dataset is intentionally excluded from Git because the source
+CSV files are relatively large and are not required to be committed to the
+repository.
 
-Place the downloaded dataset files inside:
+Download the Olist dataset separately and place the required CSV files inside:
 
 ```text
 data/raw/
+```
+
+### Required Raw Files
+
+The data-ingestion pipeline expects the following nine files:
+
+```text
+data/raw/
+├── olist_customers_dataset.csv
+├── olist_geolocation_dataset.csv
+├── olist_order_items_dataset.csv
+├── olist_order_payments_dataset.csv
+├── olist_order_reviews_dataset.csv
+├── olist_orders_dataset.csv
+├── olist_products_dataset.csv
+├── olist_sellers_dataset.csv
+└── product_category_name_translation.csv
+```
+
+The ingestion layer validates that all required files are present before the
+Data Layer pipeline begins.
+
+After placing the dataset files in `data/raw/`, run the reproducibility
+workflow described in the Reproducibility section:
+
+```bash
+python -m scripts.reproduce_project
 ```
 
 ---
