@@ -839,8 +839,10 @@ The reporting view provides the generated business-intelligence report containin
 - Production forecasts are model outputs and should not be treated as guaranteed future revenue.
 - Historical validation evidence is kept separate from production forecasting evidence.
 - Forecast-risk thresholds are project-defined rules rather than external industry standards.
-- The project-derived RAG knowledge base contains project-specific context and is not intended to represent external industry knowledge.
+- The RAG layer uses project-derived knowledge-base documents rather than an external industry knowledge corpus.
 - Cloud deployment has not yet been completed.
+- Weekly report generation is automated, but scheduled execution is not currently configured.
+- Model monitoring produces risk and drift signals, but automatic retraining is not triggered by those signals.
 
 ### Future Work
 
