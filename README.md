@@ -441,7 +441,19 @@ The forecasting pipeline evaluates five approaches using the project's walk-forw
 | 4 | Prophet | 44,045.20 | 50,923.09 | 20.24% | 46.88% |
 | 5 | XGBoost | 41,257.86 | 50,268.34 | 20.41% | 81.25% |
 
-The validation ranking and the production-model choice are separate project decisions; the production serving workflow uses XGBoost.
+### Production Model Selection
+
+The validation results show that **LSTM achieved the best benchmark performance**, with a mean MAPE of **16.11%**, followed by the weighted ensemble at **17.23%**. XGBoost ranked fifth in the stored overall model comparison with a mean MAPE of **20.41%**.
+
+However, the production model was selected using **system-level requirements rather than validation MAPE alone**. The deployed forecasting workflow uses **XGBoost** because it provides a consistent production model family across the overall, category, and regional forecasting levels and integrates directly with **TreeSHAP** for feature-level forecast explanations.
+
+This distinction is intentional:
+
+- **LSTM** is the best-performing benchmark model according to the stored walk-forward validation results.
+- **XGBoost** is the selected production model for the complete explainable forecasting and business-intelligence workflow.
+- The production-model decision therefore represents an engineering trade-off between predictive performance, consistency across forecasting levels, and explainability.
+
+The project does **not** claim that XGBoost is the most accurate model based on the validation results. Instead, XGBoost was selected because it best satisfies the requirements of the complete downstream production system.
 
 ### Production Forecast Model
 
