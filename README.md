@@ -19,9 +19,9 @@ An end-to-end intelligent business forecasting system combining predictive machi
 
 ## Live Demo
 
-**Coming soon.**
+The project is available for local execution using the provided Python and Docker Compose setup.
 
-The project is currently validated locally through the FastAPI, Streamlit, and Docker Compose serving stack. A public cloud deployment link will be added after deployment.
+The Streamlit dashboard and FastAPI serving layer have been validated locally, including the Dockerized end-to-end serving tests.
 
 ---
 
@@ -804,3 +804,5 @@ The project is intended for educational and demonstration purposes.
 
 - GitHub: [github.com/omhunagund](https://github.com/omhunagund)
 - LinkedIn: [linkedin.com/in/om-hunagund](https://www.linkedin.com/in/om-hunagund)
+
+---
