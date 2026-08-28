@@ -17,7 +17,7 @@ An end-to-end intelligent business forecasting system combining predictive machi
 
 ---
 
-## Live Demo
+## Demo / Local Execution
 
 The project is available for local execution using the provided Python and Docker Compose setup.
 
@@ -560,7 +560,7 @@ Install the following before running the project locally:
 ### Clone the Repository
 
 ```powershell
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone https://github.com/omhunagund/intelligent-forecasting-agent.git
 cd intelligent-forecasting-agent
 ```
 
@@ -600,7 +600,11 @@ The project can then be run through its existing data, ML, AI, and serving workf
 
 ## Environment Variables
 
-Create a local `.env` file in the project root.
+Create a local `.env` file in the project root using the provided template:
+
+```powershell
+Copy-Item .env.example .env
+```
 
 The `.env` file contains secrets and must not be committed to Git.
 
@@ -613,6 +617,8 @@ The AI reasoning layer requires a Groq API key:
 ```text
 GROQ_API_KEY=your_groq_api_key
 ```
+
+Open the `.env` file and replace `your_groq_api_key` with your actual Groq API key.
 
 The application loads the key from the environment when initializing the Groq reasoning model.
 
