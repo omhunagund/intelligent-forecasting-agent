@@ -39,8 +39,8 @@ from src.ai_layer.tools import (
     retrieve_business_context,
     query_historical_data,
     assess_forecast_risk,
+    generate_report,
 )
-from src.ai_layer.report_tools import build_report
 
 from src.ai_layer.query_router import (
     route_query_node,
@@ -641,42 +641,42 @@ def generate_report_node(
                 }
             )
 
-    report = build_report(
-        title=title,
-        executive_summary=(
-            synthesis
-            if synthesis
-            else (
-                "No synthesis was generated."
-            )
-        ),
-        forecast=state.get(
-            "forecast"
-        ),
-        shap_explanation=(
-            state[
-                "shap_explanation"
-            ][0]
-            if state.get(
-                "shap_explanation"
-            )
-            else None
-        ),
-        historical_data=state.get(
-            "historical_data"
-        ),
-        business_context=state.get(
-            "business_context"
-        ),
-        risk_assessment=state.get(
-            "risk_assessment"
-        ),
-        findings=findings,
-        recommendations=recommendations,
-        sources=state.get(
-            "sources",
-            [],
-        ),
+    report = generate_report.invoke(
+        {
+            "title": title,
+            "executive_summary": (
+                synthesis
+                if synthesis
+                else "No synthesis was generated."
+            ),
+            "forecast": state.get(
+                "forecast"
+            ),
+            "shap_explanation": (
+                state[
+                    "shap_explanation"
+                ][0]
+                if state.get(
+                    "shap_explanation"
+                )
+                else None
+            ),
+            "historical_data": state.get(
+                "historical_data"
+            ),
+            "business_context": state.get(
+                "business_context"
+            ),
+            "risk_assessment": state.get(
+                "risk_assessment"
+            ),
+            "findings": findings,
+            "recommendations": recommendations,
+            "sources": state.get(
+                "sources",
+                [],
+            ),
+        }
     )
 
     return {

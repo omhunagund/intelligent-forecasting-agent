@@ -240,13 +240,23 @@ from src.ai_layer.report_tools import (
 def generate_report(
     title: str,
     executive_summary: str,
-    findings: str,
-    recommendations: str,
-    sources: str,
+    forecast: dict | None = None,
+    shap_explanation: dict | None = None,
+    historical_data: dict | None = None,
+    business_context: dict | None = None,
+    risk_assessment: dict | None = None,
+    findings: list[str] | None = None,
+    recommendations: list[dict] | None = None,
+    sources: list[str] | None = None,
 ) -> dict:
     """
-    Format synthesized analysis into a structured business
-    intelligence report.
+    Generate a structured business-intelligence report from
+    already-computed project evidence.
+
+    The tool does not generate new analytical claims. It passes
+    verified forecast, SHAP, historical, business-context, risk,
+    findings, recommendations, and source evidence to the
+    deterministic report builder.
     """
 
     if not title.strip():
@@ -259,50 +269,17 @@ def generate_report(
             "executive_summary must not be empty."
         )
 
-    # The current tool contract accepts plain text because the
-    # LangGraph reasoning node will eventually produce these
-    # sections. Convert newline-delimited text into structured
-    # lists before passing them to the report builder.
-
-    finding_list = [
-        item.strip(
-        )
-        for item in findings.splitlines()
-        if item.strip()
-    ]
-
-    recommendation_list = []
-
-    for item in recommendations.splitlines():
-
-        item = item.strip()
-
-        if not item:
-            continue
-
-        recommendation_list.append(
-            {
-                "priority":
-                    "medium",
-                "action":
-                    item,
-                "rationale":
-                    "",
-            }
-        )
-
-    source_list = [
-        item.strip()
-        for item in sources.splitlines()
-        if item.strip()
-    ]
-
     return build_report(
         title=title,
         executive_summary=executive_summary,
-        findings=finding_list,
-        recommendations=recommendation_list,
-        sources=source_list,
+        forecast=forecast,
+        shap_explanation=shap_explanation,
+        historical_data=historical_data,
+        business_context=business_context,
+        risk_assessment=risk_assessment,
+        findings=findings,
+        recommendations=recommendations,
+        sources=sources,
     )
 
 
