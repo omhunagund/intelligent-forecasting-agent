@@ -1,0 +1,7 @@
+Queries for the AI Agent : 
+
+1) Why is North revenue forecast risky?
+2) What is the next 4 week revenue forecast for Automotive?
+3) Explain what is driving the overall revenue forecast.
+4) How has Beauty & Health forecast performance been recently?
+5) Give me a report on the South region.
